@@ -84,3 +84,31 @@ Traceback (most recent call last):
   File "/home/pete/Repos/pysystemtrade/systems/basesystem.py", line 250, in unpickle_cache
     cache_from_pickled = pickle.load(fhandle)
 EOFError: Ran out of input
+20170116 01:13:21PM,Downloads,ERROR   ,Expected list, got tuple
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 205, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 109, in main
+    df_stats = pd.DataFrame(system.accounts.pandl_for_instrument_with_multiplier(i[1]).percent().stats())
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 262, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5361, in _to_arrays
+    dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5438, in _list_to_arrays
+    content = list(lib.to_object_array(data).T)
+  File "pandas/src/inference.pyx", line 1123, in pandas.lib.to_object_array (pandas/lib.c:63481)
+TypeError: Expected list, got tuple
+20170116 01:18:18PM,Downloads,ERROR   ,Expected list, got tuple
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 205, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 109, in main
+    df_stats = pd.DataFrame(system.accounts.pandl_for_instrument(i[1]).percent().stats())
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 262, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5361, in _to_arrays
+    dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5438, in _list_to_arrays
+    content = list(lib.to_object_array(data).T)
+  File "pandas/src/inference.pyx", line 1123, in pandas.lib.to_object_array (pandas/lib.c:63481)
+TypeError: Expected list, got tuple

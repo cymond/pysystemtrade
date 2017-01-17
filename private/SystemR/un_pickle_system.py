@@ -89,6 +89,8 @@ def main():
         print("Items with data: ", system.get_items_with_data())  ## Cache is now populated. Any existing data would have been removed.
         print("Accounts.... items")
         print(system.get_itemnames_for_stage("accounts"))  ## now doesn't include ('accounts', 'portfolio', 'percentageTdelayfillTroundpositionsT')
+        print("System stages")
+        print(system)
 
         print("Sharpe: ", system.accounts.portfolio().sharpe())
         print("notional capital: ", system.accounts.get_notional_capital())
@@ -106,6 +108,8 @@ def main():
             df_buffered_position = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
             df_raw_carry_data = pd.DataFrame(system.data.get_instrument_raw_carry_data(i[1]))
             df_inst_pnl = pd.DataFrame(system.accounts.pandl_for_instrument_with_multiplier(i[1]))
+
+
             print("Notional Position")
             print(df_notional_position.tail(4))
             print("Actual Position")
@@ -116,6 +120,8 @@ def main():
             print(df_raw_carry_data.tail(4))
             print("Profit and Loss for Instrument")
             print(df_inst_pnl.tail(20))
+            print("% statistics for instrument")
+            print(system.accounts.pandl_for_instrument(i[1]).percent().stats())
 
             print("*****************")
 

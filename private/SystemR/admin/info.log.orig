@@ -1,0 +1,114 @@
+20161219 03:21:24PM,Downloads,ERROR   ,The file, directories.csv, does not exist
+20161219 04:02:37PM,Downloads,ERROR   ,The file, ..admin/directories.csv, does not exist
+20161221 07:41:12PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 150, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 81, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 46, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20161227 05:46:55PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 155, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 81, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 46, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20161227 07:46:19PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 162, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 81, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 46, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20161227 07:53:43PM,Downloads,ERROR   ,'PortfoliosEstimated' object has no attribute 'get_buffered_position'
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 166, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/test01.py", line 114, in main
+    dfBufferedPositions = pd.DataFrame(system.portfolio.get_buffered_position('EDOLLAR'))
+AttributeError: 'PortfoliosEstimated' object has no attribute 'get_buffered_position'
+20170104 02:29:49AM,Downloads,ERROR   ,local variable 'counter' referenced before assignment
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 95, in main
+    counter = counter + 1
+UnboundLocalError: local variable 'counter' referenced before assignment
+20170104 03:06:53AM,Downloads,ERROR   ,name 'data' is not defined
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 188, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 79, in main
+    system = futures_system(data=data,config=new_config,log_level="off")
+NameError: name 'data' is not defined
+20170104 02:26:56PM,Downloads,ERROR   ,DataFrame constructor not properly called!
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 198, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 101, in main
+    df_notional_position = pd.DataFrame(system.accounts.get_notional_position)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 302, in __init__
+    raise PandasError('DataFrame constructor not properly called!')
+pandas.core.common.PandasError: DataFrame constructor not properly called!
+20170104 06:44:35PM,Downloads,ERROR   ,DataFrame constructor not properly called!
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 202, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 98, in main
+    df_sys_pnl = pd.DataFrame(system.accounts.portfolio)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 302, in __init__
+    raise PandasError('DataFrame constructor not properly called!')
+pandas.core.common.PandasError: DataFrame constructor not properly called!
+20170105 10:19:44AM,Downloads,ERROR   ,Ran out of input
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 202, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 86, in main
+    system.unpickle_cache("private.SystemR.system.pck")
+  File "/home/pete/Repos/pysystemtrade/systems/basesystem.py", line 250, in unpickle_cache
+    cache_from_pickled = pickle.load(fhandle)
+EOFError: Ran out of input
+20170105 10:24:43AM,Downloads,ERROR   ,Ran out of input
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 202, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 86, in main
+    system.unpickle_cache("private.SystemR.system.pck")
+  File "/home/pete/Repos/pysystemtrade/systems/basesystem.py", line 250, in unpickle_cache
+    cache_from_pickled = pickle.load(fhandle)
+EOFError: Ran out of input
+20170116 01:13:21PM,Downloads,ERROR   ,Expected list, got tuple
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 205, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 109, in main
+    df_stats = pd.DataFrame(system.accounts.pandl_for_instrument_with_multiplier(i[1]).percent().stats())
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 262, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5361, in _to_arrays
+    dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5438, in _list_to_arrays
+    content = list(lib.to_object_array(data).T)
+  File "pandas/src/inference.pyx", line 1123, in pandas.lib.to_object_array (pandas/lib.c:63481)
+TypeError: Expected list, got tuple
+20170116 01:18:18PM,Downloads,ERROR   ,Expected list, got tuple
+Traceback (most recent call last):
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 205, in <module>
+    main()
+  File "/home/pete/Repos/pysystemtrade/private/SystemR/un_pickle_system.py", line 109, in main
+    df_stats = pd.DataFrame(system.accounts.pandl_for_instrument(i[1]).percent().stats())
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 262, in __init__
+    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5361, in _to_arrays
+    dtype=dtype)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 5438, in _list_to_arrays
+    content = list(lib.to_object_array(data).T)
+  File "pandas/src/inference.pyx", line 1123, in pandas.lib.to_object_array (pandas/lib.c:63481)
+TypeError: Expected list, got tuple

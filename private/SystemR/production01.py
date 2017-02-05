@@ -3,19 +3,16 @@ from syscore.accounting import account_test
 from syscore.pdutils import turnover
 from sysdata.configdata import Config
 from sysdata.csvdata import csvFuturesData
-
-
 from systems.provided.futures_chapter15.estimatedsystem import futures_system
 from systems.provided.moretradingrules.morerules import breakout
 
 import pandas as pd
 import numpy as np
 from matplotlib.pyplot import show, legend, matshow
-
-data=csvFuturesData("private.SystemR.data")
-
 import time
-path = '/home/pete/Repos/pysystemtrade/private/SystemR/'
+
+#path = '/home/pete/Repos/pysystemtrade/private/SystemR/'
+path = '/home/pete/Repos/test/quality/private/SystemR/'
 today = time.strftime("%Y%m%d")
 positions_file = path  + 'positions/system.csv'
 history_file = path + 'positions/history/' + today + "system.csv"
@@ -23,9 +20,12 @@ history_file = path + 'positions/history/' + today + "system.csv"
 
 ## new system has all trading rules
 new_config = Config("private.SystemR.production01.yaml")
+# pointer to data
+data=csvFuturesData("private.SystemR.data")
 
 
 system = futures_system(data=data, config=new_config, log_level="on")
+
 instruments = pd.DataFrame(system.get_instrument_list() )
 print(instruments)
 

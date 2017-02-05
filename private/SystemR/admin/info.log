@@ -112,3 +112,760 @@ Traceback (most recent call last):
     content = list(lib.to_object_array(data).T)
   File "pandas/src/inference.pyx", line 1123, in pandas.lib.to_object_array (pandas/lib.c:63481)
 TypeError: Expected list, got tuple
+20170131 02:02:29PM,Downloads,ERROR   ,[Errno 2] No such file or directory: '/home/pete/Repos/test/quality/private/SystemR/system.pck'
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/un_pickle_system.py", line 208, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/un_pickle_system.py", line 86, in main
+    system.unpickle_cache("private.SystemR.system.pck")
+  File "/home/pete/Repos/test/quality/systems/basesystem.py", line 249, in unpickle_cache
+    with open(get_filename_for_package(filename), "rb") as fhandle:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pete/Repos/test/quality/private/SystemR/system.pck'
+20170202 11:56:00PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01.py", line 167, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01.py", line 80, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01.py", line 56, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 12:02:35AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01.py", line 167, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01.py", line 80, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01.py", line 56, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 09:55:39PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 89, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 10:06:22PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 89, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 10:16:16PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 89, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 10:35:43PM,Downloads,ERROR   ,cannot convert the series to <class 'float'>
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 89, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 69, in main
+    account = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 53, in get_IB_cap
+    account = float(account_value_df.loc['NetLiquidation']['VALUE'])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/series.py", line 80, in wrapper
+    "{0}".format(str(converter)))
+TypeError: cannot convert the series to <class 'float'>
+20170203 10:39:33PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 89, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 10:54:48PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 91, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 10:56:19PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 91, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 10:57:12PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 91, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 11:00:59PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 91, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 79, in main
+    ib_cap = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170203 11:24:39PM,Downloads,ERROR   ,name 'today' is not defined
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 116, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 77, in main
+    cap_dict = {'DATE': today, 'IBCAP': ib_capital, 'CORRECTION': offset}
+NameError: name 'today' is not defined
+20170204 12:50:04AM,Downloads,ERROR   ,__init__() got an unexpected keyword argument 'coiumns'
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 121, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 99, in main
+    cap_df = pd.DataFrame(index=['DATE'], coiumns=['IB_CAPITAL', 'OFFSET'])
+TypeError: __init__() got an unexpected keyword argument 'coiumns'
+20170204 12:50:50AM,Downloads,ERROR   ,Length of values does not match length of index
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 121, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 105, in main
+    cap_df[today] = [capital, offset]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2348, in __setitem__
+    self._set_item(key, value)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2414, in _set_item
+    value = self._sanitize_column(key, value)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2572, in _sanitize_column
+    value = _sanitize_index(value, self.index, copy=False)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/series.py", line 2821, in _sanitize_index
+    raise ValueError('Length of values does not match length of ' 'index')
+ValueError: Length of values does not match length of index
+20170204 02:01:36AM,Downloads,ERROR   ,Index DATE invalid
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 114, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 99, in main
+    cap_df = pd.read_csv(capital_file, index_col=['DATE'], usecols=[1,2])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 305, in _read
+    return parser.read()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 763, in read
+    ret = self._engine.read(nrows)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1277, in read
+    index, names = self._make_index(data, alldata, names)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 935, in _make_index
+    index = self._get_simple_index(alldata, columns)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 969, in _get_simple_index
+    i = ix(idx)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 963, in ix
+    raise ValueError('Index %s invalid' % col)
+ValueError: Index DATE invalid
+20170204 02:03:37AM,Downloads,ERROR   ,Length mismatch: Expected axis has 1 elements, new values have 2 elements
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 114, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 100, in main
+    cap_df.columns = ['IB_CAPITAL', 'OFFSET']
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 2682, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas/src/properties.pyx", line 65, in pandas.lib.AxisProperty.__set__ (pandas/lib.c:45018)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 425, in _set_axis
+    self._data.set_axis(axis, labels)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/internals.py", line 2578, in set_axis
+    (old_len, new_len))
+ValueError: Length mismatch: Expected axis has 1 elements, new values have 2 elements
+20170204 02:05:04AM,Downloads,ERROR   ,Length mismatch: Expected axis has 1 elements, new values have 2 elements
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 114, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 100, in main
+    cap_df.columns = ['IB_CAPITAL', 'OFFSET']
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 2682, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas/src/properties.pyx", line 65, in pandas.lib.AxisProperty.__set__ (pandas/lib.c:45018)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 425, in _set_axis
+    self._data.set_axis(axis, labels)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/internals.py", line 2578, in set_axis
+    (old_len, new_len))
+ValueError: Length mismatch: Expected axis has 1 elements, new values have 2 elements
+20170204 02:12:09AM,Downloads,ERROR   ,cannot set a row with mismatched columns
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 115, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 103, in main
+    cap_df.loc[today]=[notional_cap, offset]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 128, in __setitem__
+    self._setitem_with_indexer(indexer, value)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 363, in _setitem_with_indexer
+    raise ValueError("cannot set a row with "
+ValueError: cannot set a row with mismatched columns
+20170204 02:35:01AM,Downloads,ERROR   ,cannot set a frame with no defined columns
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 117, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 97, in main
+    cap_df.loc[today] = [notional_cap, offset]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 128, in __setitem__
+    self._setitem_with_indexer(indexer, value)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 347, in _setitem_with_indexer
+    raise ValueError("cannot set a frame with no defined "
+ValueError: cannot set a frame with no defined columns
+20170204 02:35:15AM,Downloads,ERROR   ,cannot set a frame with no defined columns
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 117, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 97, in main
+    cap_df.loc[today] = [notional_cap, offset]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 128, in __setitem__
+    self._setitem_with_indexer(indexer, value)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 347, in _setitem_with_indexer
+    raise ValueError("cannot set a frame with no defined "
+ValueError: cannot set a frame with no defined columns
+20170204 02:39:34AM,Downloads,ERROR   ,Index DATA invalid
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 117, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 102, in main
+    cap_df = pd.read_csv(capital_file, index_col=['DATA'], usecols=[1,2])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 305, in _read
+    return parser.read()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 763, in read
+    ret = self._engine.read(nrows)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1277, in read
+    index, names = self._make_index(data, alldata, names)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 935, in _make_index
+    index = self._get_simple_index(alldata, columns)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 969, in _get_simple_index
+    i = ix(idx)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 963, in ix
+    raise ValueError('Index %s invalid' % col)
+ValueError: Index DATA invalid
+20170204 02:41:05AM,Downloads,ERROR   ,Index DATA invalid
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 117, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 102, in main
+    cap_df = pd.read_csv(capital_file, index_col=['DATA'], usecols=['IB_CAPITAL', 'OFFSET'])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 305, in _read
+    return parser.read()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 763, in read
+    ret = self._engine.read(nrows)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1277, in read
+    index, names = self._make_index(data, alldata, names)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 935, in _make_index
+    index = self._get_simple_index(alldata, columns)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 969, in _get_simple_index
+    i = ix(idx)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 963, in ix
+    raise ValueError('Index %s invalid' % col)
+ValueError: Index DATA invalid
+20170204 02:42:35AM,Downloads,ERROR   ,'DATA' is not in list
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 117, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 102, in main
+    cap_df = pd.read_csv(capital_file, index_col=['DATA'], usecols=['DATA','IB_CAPITAL', 'OFFSET'])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 295, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 612, in __init__
+    self._make_engine(self.engine)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 747, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1154, in __init__
+    col_indices.append(self.names.index(u))
+ValueError: 'DATA' is not in list
+20170204 02:45:17AM,Downloads,ERROR   ,'DATA' is not in list
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 102, in main
+    cap_df = pd.read_csv(capital_file, usecols=['DATA','IB_CAPITAL', 'OFFSET'])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 295, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 612, in __init__
+    self._make_engine(self.engine)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 747, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1154, in __init__
+    col_indices.append(self.names.index(u))
+ValueError: 'DATA' is not in list
+20170204 02:46:56AM,Downloads,ERROR   ,Index DATE invalid
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 102, in main
+    cap_df = pd.read_csv(capital_file, usecols=['IB_CAPITAL', 'OFFSET'], index_col=['DATE'])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 305, in _read
+    return parser.read()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 763, in read
+    ret = self._engine.read(nrows)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1277, in read
+    index, names = self._make_index(data, alldata, names)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 935, in _make_index
+    index = self._get_simple_index(alldata, columns)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 969, in _get_simple_index
+    i = ix(idx)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 963, in ix
+    raise ValueError('Index %s invalid' % col)
+ValueError: Index DATE invalid
+20170204 02:47:30AM,Downloads,ERROR   ,Index DATE invalid
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 102, in main
+    cap_df = pd.read_csv(capital_file, usecols=['IB_CAPITAL', 'OFFSET'], index_col=['DATE'])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 305, in _read
+    return parser.read()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 763, in read
+    ret = self._engine.read(nrows)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1277, in read
+    index, names = self._make_index(data, alldata, names)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 935, in _make_index
+    index = self._get_simple_index(alldata, columns)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 969, in _get_simple_index
+    i = ix(idx)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 963, in ix
+    raise ValueError('Index %s invalid' % col)
+ValueError: Index DATE invalid
+20170204 03:16:31AM,Downloads,ERROR   ,Can only index by location with a [integer, integer slice (START point is INCLUDED, END point is EXCLUDED), listlike of integers, boolean array]
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 105, in main
+    cap_df.iloc[today]=[notional_cap, offset]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 127, in __setitem__
+    indexer = self._get_setitem_indexer(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 118, in _get_setitem_indexer
+    return self._convert_to_indexer(key, is_setter=True)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/indexing.py", line 1591, in _convert_to_indexer
+    self._valid_types)
+ValueError: Can only index by location with a [integer, integer slice (START point is INCLUDED, END point is EXCLUDED), listlike of integers, boolean array]
+20170204 12:48:52PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 77, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170204 12:50:05PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 77, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170204 12:51:26PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 118, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 77, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 50, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170204 03:28:17PM,Downloads,ERROR   ,Length mismatch: Expected axis has 1 elements, new values have 3 elements
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 123, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 107, in main
+    update_df.columns = ['DATE', 'IB_CAPITAL', 'OFFSET']
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 2682, in __setattr__
+    return object.__setattr__(self, name, value)
+  File "pandas/src/properties.pyx", line 65, in pandas.lib.AxisProperty.__set__ (pandas/lib.c:45018)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 425, in _set_axis
+    self._data.set_axis(axis, labels)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/internals.py", line 2578, in set_axis
+    (old_len, new_len))
+ValueError: Length mismatch: Expected axis has 1 elements, new values have 3 elements
+20170204 05:36:22PM,Downloads,ERROR   ,'bool' object is not callable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 186, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 95, in main
+    if cap_df.empty():
+TypeError: 'bool' object is not callable
+20170204 05:36:51PM,Downloads,ERROR   ,-1
+Traceback (most recent call last):
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1876, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 137, in pandas.index.IndexEngine.get_loc (pandas/index.c:4027)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 675, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12408)
+  File "pandas/hashtable.pyx", line 683, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12359)
+KeyError: -1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 186, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1]['IB_CAPITAL']
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1992, in __getitem__
+    return self._getitem_column(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1999, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 1345, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/internals.py", line 3225, in get
+    loc = self.items.get_loc(item)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1878, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 137, in pandas.index.IndexEngine.get_loc (pandas/index.c:4027)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 675, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12408)
+  File "pandas/hashtable.pyx", line 683, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12359)
+KeyError: -1
+20170204 07:59:04PM,Downloads,ERROR   ,0
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:]['IB_CAPITAL'][0]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/series.py", line 560, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1911, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 103, in pandas.index.IndexEngine.get_value (pandas/index.c:3234)
+  File "pandas/index.pyx", line 111, in pandas.index.IndexEngine.get_value (pandas/index.c:2931)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 303, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6527)
+  File "pandas/hashtable.pyx", line 309, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6465)
+KeyError: 0
+20170204 08:03:30PM,Downloads,ERROR   ,0
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 99, in main
+    offset = cap_df[-1:]['OFFSET'][0]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/series.py", line 560, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1911, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 103, in pandas.index.IndexEngine.get_value (pandas/index.c:3234)
+  File "pandas/index.pyx", line 111, in pandas.index.IndexEngine.get_value (pandas/index.c:2931)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 303, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6527)
+  File "pandas/hashtable.pyx", line 309, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6465)
+KeyError: 0
+20170204 08:03:43PM,Downloads,ERROR   ,1
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 99, in main
+    offset = cap_df[-1:]['OFFSET'][1]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/series.py", line 560, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1911, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 103, in pandas.index.IndexEngine.get_value (pandas/index.c:3234)
+  File "pandas/index.pyx", line 111, in pandas.index.IndexEngine.get_value (pandas/index.c:2931)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 303, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6527)
+  File "pandas/hashtable.pyx", line 309, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6465)
+KeyError: 1
+20170204 08:08:15PM,Downloads,ERROR   ,-1
+Traceback (most recent call last):
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1876, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 137, in pandas.index.IndexEngine.get_loc (pandas/index.c:4027)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 675, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12408)
+  File "pandas/hashtable.pyx", line 683, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12359)
+KeyError: -1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:][-1]['IB_CAPITAL']
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1992, in __getitem__
+    return self._getitem_column(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1999, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 1345, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/internals.py", line 3225, in get
+    loc = self.items.get_loc(item)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1878, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 137, in pandas.index.IndexEngine.get_loc (pandas/index.c:4027)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 675, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12408)
+  File "pandas/hashtable.pyx", line 683, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12359)
+KeyError: -1
+20170204 08:08:29PM,Downloads,ERROR   ,list indices must be integers, not str
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:][[-1]['IB_CAPITAL']]
+TypeError: list indices must be integers, not str
+20170204 08:08:52PM,Downloads,ERROR   ,list index out of range
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:][[-1][2]]
+IndexError: list index out of range
+20170204 08:09:09PM,Downloads,ERROR   ,list index out of range
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:][[0][2]]
+IndexError: list index out of range
+20170204 08:09:23PM,Downloads,ERROR   ,list index out of range
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:][[][2]]
+IndexError: list index out of range
+20170204 08:09:31PM,Downloads,ERROR   ,list index out of range
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:][[][1]]
+IndexError: list index out of range
+20170204 08:10:43PM,Downloads,ERROR   ,'method' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:].reindex['IB_CAPITAL']
+TypeError: 'method' object is not subscriptable
+20170204 08:13:59PM,Downloads,ERROR   ,'method' object is not subscriptable
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:].reindex[0]
+TypeError: 'method' object is not subscriptable
+20170204 08:16:22PM,Downloads,ERROR   ,'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 3334, in _ensure_has_len
+    len(seq)
+TypeError: object of type 'int' has no len()
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:].reindex(1)['IB_CAPITAL'][0]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2735, in reindex
+    **kwargs)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 2226, in reindex
+    fill_value, copy).__finalize__(self)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2681, in _reindex_axes
+    fill_value, limit, tolerance)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2689, in _reindex_index
+    tolerance=tolerance)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 2232, in reindex
+    target = _ensure_has_len(target)  # target may be an iterator
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 3336, in _ensure_has_len
+    return list(seq)
+TypeError: 'int' object is not iterable
+20170204 08:16:56PM,Downloads,ERROR   ,'int' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 3334, in _ensure_has_len
+    len(seq)
+TypeError: object of type 'int' has no len()
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:].reindex(0)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2735, in reindex
+    **kwargs)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 2226, in reindex
+    fill_value, copy).__finalize__(self)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2681, in _reindex_axes
+    fill_value, limit, tolerance)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 2689, in _reindex_index
+    tolerance=tolerance)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 2232, in reindex
+    target = _ensure_has_len(target)  # target may be an iterator
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 3336, in _ensure_has_len
+    return list(seq)
+TypeError: 'int' object is not iterable
+20170204 08:22:55PM,Downloads,ERROR   ,0
+Traceback (most recent call last):
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1876, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 137, in pandas.index.IndexEngine.get_loc (pandas/index.c:4027)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 675, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12408)
+  File "pandas/hashtable.pyx", line 683, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12359)
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:].reset_index(drop=True)[0]['IB_CAPITAL']
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1992, in __getitem__
+    return self._getitem_column(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1999, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/generic.py", line 1345, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/internals.py", line 3225, in get
+    loc = self.items.get_loc(item)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1878, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 137, in pandas.index.IndexEngine.get_loc (pandas/index.c:4027)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 675, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12408)
+  File "pandas/hashtable.pyx", line 683, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:12359)
+KeyError: 0
+20170204 08:33:16PM,Downloads,ERROR   ,1
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 98, in main
+    capital = cap_df[-1:].reset_index(drop=True)[0:]['IB_CAPITAL'][1]
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/series.py", line 560, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/indexes/base.py", line 1911, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 103, in pandas.index.IndexEngine.get_value (pandas/index.c:3234)
+  File "pandas/index.pyx", line 111, in pandas.index.IndexEngine.get_value (pandas/index.c:2931)
+  File "pandas/index.pyx", line 157, in pandas.index.IndexEngine.get_loc (pandas/index.c:3891)
+  File "pandas/hashtable.pyx", line 303, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6527)
+  File "pandas/hashtable.pyx", line 309, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:6465)
+KeyError: 1
+20170204 10:17:40PM,Downloads,ERROR   ,name 'path' is not defined
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 187, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 174, in main
+    report_path = path  + 'reports/' +  today
+NameError: name 'path' is not defined
+20170204 11:57:13PM,Downloads,ERROR   ,File b'/home/pete/Repos/test/quality/private/SystemR/admin/capital/capital.csv' does not exist
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 192, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/production01_old.py", line 87, in main
+    cap_df = pd.read_csv(capital_file,  usecols=[0,1,2])
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 529, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 295, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 612, in __init__
+    self._make_engine(self.engine)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 747, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/parsers.py", line 1119, in __init__
+    self._reader = _parser.TextReader(src, **kwds)
+  File "pandas/parser.pyx", line 353, in pandas.parser.TextReader.__cinit__ (pandas/parser.c:3246)
+  File "pandas/parser.pyx", line 591, in pandas.parser.TextReader._setup_parser_source (pandas/parser.c:6111)
+OSError: File b'/home/pete/Repos/test/quality/private/SystemR/admin/capital/capital.csv' does not exist
+20170205 01:11:35AM,Downloads,ERROR   ,No module named 'IButils'
+Traceback (most recent call last):
+  File "ibcapital.py", line 123, in <module>
+    main()
+  File "ibcapital.py", line 76, in main
+    ib_capital = get_IB_cap()
+  File "ibcapital.py", line 43, in get_IB_cap
+    from wrapper_v5 import IBWrapper, IBclient
+  File "/home/pete/Repos/test/quality/private/SystemR/wrapper_v5.py", line 6, in <module>
+    from IButils import bs_resolve, action_ib_fill
+ImportError: No module named 'IButils'
+20170205 01:45:32AM,Downloads,ERROR   ,No module named 'IButils'
+Traceback (most recent call last):
+  File "ibcapital.py", line 123, in <module>
+    main()
+  File "ibcapital.py", line 76, in main
+    ib_capital = get_IB_cap()
+  File "ibcapital.py", line 43, in get_IB_cap
+    from wrapper_v5 import IBWrapper, IBclient
+  File "/home/pete/Repos/test/quality/private/SystemR/wrapper_v5.py", line 6, in <module>
+    from IButils import bs_resolve, action_ib_fill
+ImportError: No module named 'IButils'
+20170205 02:26:57PM,Downloads,ERROR   ,name 'sys' is not defined
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 133, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 64, in main
+    print("sys.executable: ", sys.executable)
+NameError: name 'sys' is not defined
+20170205 02:30:04PM,Downloads,ERROR   ,No module named 'IButils'
+Traceback (most recent call last):
+  File "ibcapital.py", line 133, in <module>
+    main()
+  File "ibcapital.py", line 86, in main
+    ib_capital = get_IB_cap()
+  File "ibcapital.py", line 43, in get_IB_cap
+    from wrapper_v5 import IBWrapper, IBclient
+  File "/home/pete/Repos/test/quality/private/SystemR/wrapper_v5.py", line 6, in <module>
+    from IButils import bs_resolve, action_ib_fill
+ImportError: No module named 'IButils'
+20170205 03:07:05PM,Downloads,ERROR   ,'private'
+Traceback (most recent call last):
+  File "production01_old.py", line 192, in <module>
+    main()
+  File "production01_old.py", line 105, in main
+    new_config = Config(["private.SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: 'private'
+20170205 03:21:00PM,Downloads,ERROR   ,'private'
+Traceback (most recent call last):
+  File "production01_old.py", line 192, in <module>
+    main()
+  File "production01_old.py", line 105, in main
+    new_config = Config(["private.SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: 'private'

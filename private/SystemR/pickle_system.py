@@ -75,14 +75,17 @@ def main():
         history_file = admin_path + 'positions_test/history/' + today + "system.csv"
         capital_file = admin_path + 'capital_test/capital.csv'
         print("In main....")
+
         #**** Get capital from IB ****
         ib_capital = get_IB_cap()
         offset = get_capital_offset()
         capital = ib_capital + offset
         print("ib capital: ", ib_capital, "offset: ", offset)
+
         cap_dict = {'DATE': today, 'IBCAP': ib_capital, 'CORRECTION': offset}
         update_capital(capital_file, cap_dict)
         print('Back in main...:', capital)
+        '''
         my_config_dict = dict(notional_trading_capital= capital)
         print(my_config_dict)
 
@@ -93,8 +96,10 @@ def main():
         # **** Create the system ****
         system = futures_system(data=data, config=new_config, log_level="on")
         system.accounts.portfolio().sharpe()   # Do calculations to save in cache....
-        system.pickle_cache("private.SystemR.system.pck")  ## use any file extension you like
 
+        print("Pickle the system....")
+        system.pickle_cache("private.SystemR.system.pck")  ## use any file extension you like
+        '''
 
 if __name__ == "__main__":
 

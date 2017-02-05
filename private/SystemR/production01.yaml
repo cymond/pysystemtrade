@@ -144,6 +144,6 @@ instruments: ['KR3','V2X','EDOLLAR','MXP','CORN','EUROSTX','GAS_US','PLAT','US2'
 # Capital correction
 #
 percentage_vol_target: 20.0
-notional_trading_capital: 480000
+notional_trading_capital: 465000
 base_currency: "USD"
 

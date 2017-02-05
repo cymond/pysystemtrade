@@ -107,6 +107,9 @@ def main():
             df_actual_position = pd.DataFrame(system.accounts.get_actual_position(i[1]))
             df_buffered_position = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
             df_raw_carry_data = pd.DataFrame(system.data.get_instrument_raw_carry_data(i[1]))
+            df_rawdata_daily_returns = pd.DataFrame(system.rawdata.daily_returns(i[1]))
+            df_rawdata_daily_returns_volatility = pd.DataFrame(system.rawdata.daily_returns_volatility(i[1]))
+            df_rawdata_raw_futures_roll = pd.DataFrame(system.rawdata.raw_futures_roll(i[1]))
             df_inst_pnl = pd.DataFrame(system.accounts.pandl_for_instrument_with_multiplier(i[1]))
 
 
@@ -118,6 +121,12 @@ def main():
             print(df_buffered_position.tail(4))
             print("Instrument Raw Carry Data")
             print(df_raw_carry_data.tail(4))
+            print("Daily Returs")
+            print(df_rawdata_daily_returns.tail(4))
+            print("Daily Returns Volatility")
+            print(df_rawdata_daily_returns_volatility.tail(4))
+            print("Raw Futures Roll")
+            print(df_rawdata_raw_futures_roll.tail(4))
             print("Profit and Loss for Instrument")
             print(df_inst_pnl.tail(20))
             print("% statistics for instrument")

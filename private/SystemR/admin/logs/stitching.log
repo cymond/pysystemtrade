@@ -1,0 +1,26 @@
+20170218 02:18:59AM,Downloads,ERROR   ,SPLICING  : AEX       , stitch date 2017-02-17 00:00:00, not in legacy PICE file
+20170218 02:18:59AM,Downloads,ERROR   ,SPLICING  : CAC       , stitch date 2017-02-17 00:00:00, not in legacy PICE file
+20170218 02:18:59AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Quandl and IB PRICE download files match
+20170218 02:18:59AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Using Quandl PRICE download files to splice
+20170218 02:18:59AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Stitched PRICE saved to file EDOLLAR_price.csv
+20170218 02:18:59AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Stitched CARRY saved to file EDOLLAR_carrydata.csv
+20170218 03:05:13AM,Downloads,ERROR   ,SPLICING  : AEX       , stitch date 2017-02-17 00:00:00, not in legacy PICE file
+20170218 03:05:13AM,Downloads,ERROR   ,SPLICING  : CAC       , stitch date 2017-02-17 00:00:00, not in legacy PICE file
+20170218 03:05:13AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Quandl and IB PRICE download files match
+20170218 03:05:13AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Using Quandl PRICE download files to splice
+20170218 03:05:13AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Stitched PRICE saved to file EDOLLAR_price.csv
+20170218 03:05:13AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Stitched CARRY saved to file EDOLLAR_carrydata.csv
+20170218 03:11:28AM,Downloads,ERROR   ,SPLICING  : AEX       , stitch date 2017-02-17 00:00:00, not in legacy PICE file
+20170218 03:11:28AM,Downloads,ERROR   ,SPLICING  : CAC       , stitch date 2017-02-17 00:00:00, not in legacy PICE file
+20170218 03:11:28AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Quandl and IB PRICE download files match
+20170218 03:11:28AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Using Quandl PRICE download files to splice
+20170218 03:11:28AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Stitched PRICE saved to file EDOLLAR_price.csv
+20170218 03:11:28AM,Downloads,INFO    ,SPLICING  : EDOLLAR   : Stitched CARRY saved to file EDOLLAR_carrydata.csv
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : AEX       : Quandl and IB PRICE download files match
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : AEX       : Using Quandl PRICE download files to splice
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : AEX       : Stitched PRICE saved to file AEX_price.csv
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : AEX       : Stitched CARRY saved to file AEX_carrydata.csv
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : CAC       : Quandl and IB PRICE download files match
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : CAC       : Using Quandl PRICE download files to splice
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : CAC       : Stitched PRICE saved to file CAC_price.csv
+20170218 01:48:08PM,Downloads,INFO    ,SPLICING  : CAC       : Stitched CARRY saved to file CAC_carrydata.csv

@@ -1,2 +1,5 @@
 DIRECTION,PATH
+SYSTEM,/home/pete/Repos/test/quality/private/SystemR/
 ADMIN,/home/pete/Repos/test/quality/private/SystemR/admin/
+SOURCE,/home/pete/Documents/Python Packages/sysIB/private/data/
+DESTINATION,/home/pete/Repos/test/quality/private/SystemR/data/

@@ -1,3 +1,4 @@
+import time, os, sys
 
 def set_logging():
     import logging
@@ -34,7 +35,17 @@ def get_capital_offset():
     201707  : 0
 
     '''
-    return 50000
+
+    today = time.strftime("%Y%m")
+    year = int(today[:4])
+    month = int(today[4:])
+
+    if year == 2017 and month < 7:
+        offset = (7 - month) * 10000
+    else:
+        offset = 0
+    print("Offset: ", offset)
+    return offset
 
 def get_IB_cap():
 
@@ -58,7 +69,7 @@ def   main():
     import pandas as pd
     import numpy as np
     from matplotlib.pyplot import show, legend, matshow
-    import time, os, sys
+    '''
     print("sys.executable: ", sys.executable)
     print("os.get_cwd(): ", os.getcwd())
     print("sys.version: ", sys.version)
@@ -67,7 +78,7 @@ def   main():
     print("--------------------------")
     print(os.path.join(os.path.dirname(__file__), '..'))
     print("--------------------------")
-
+    '''
     try:
         user_paths = os.environ['PYTHONPATH'].split(os.pathsep)
     except KeyError:
@@ -83,7 +94,7 @@ def   main():
     admin_path = dir_df.loc['ADMIN'][0]
     positions_file = admin_path + 'positions_test/system.csv'
     history_file = admin_path + 'positions_test/history/' + today + "system.csv"
-    capital_file = admin_path + 'capital_test/capital.csv'
+    capital_file = admin_path + 'capital/capital.csv'
     print("In main....")
 
 
@@ -103,7 +114,7 @@ def   main():
         dir_df = pd.read_csv(dir_filename, index_col=['DIRECTION'], dtype={'PATH': str})
         admin_path = dir_df.loc['ADMIN'][0]
         #account = get_IB_cap()
-        capital_file = admin_path + 'capital_test/capital.csv'
+        capital_file = admin_path + 'capital/capital.csv'
 
     if not os.path.isfile(capital_file):
         # create a new Dataframe with one row for today

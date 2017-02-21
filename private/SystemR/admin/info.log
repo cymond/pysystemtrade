@@ -869,3 +869,139 @@ Traceback (most recent call last):
   File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
     d = os.path.dirname(sys.modules[package_name].__file__)
 KeyError: 'private'
+20170208 10:24:03AM,Downloads,ERROR   ,[Errno 2] No such file or directory: '/home/pete/Repos/test/quality/private/SystemR/admin/capital_test/capital.csv'
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 138, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 130, in main
+    cap_df.to_csv(capital_file)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1343, in to_csv
+    formatter.save()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/format.py", line 1525, in save
+    compression=self.compression)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/common.py", line 375, in _get_handle
+    f = open(path, mode, errors='replace')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pete/Repos/test/quality/private/SystemR/admin/capital_test/capital.csv'
+20170208 10:25:44AM,Downloads,ERROR   ,[Errno 2] No such file or directory: '/home/pete/Repos/test/quality/private/SystemR/admin/capital_test/capital.csv'
+Traceback (most recent call last):
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 138, in <module>
+    main()
+  File "/home/pete/Repos/test/quality/private/SystemR/ibcapital.py", line 130, in main
+    cap_df.to_csv(capital_file)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/frame.py", line 1343, in to_csv
+    formatter.save()
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/core/format.py", line 1525, in save
+    compression=self.compression)
+  File "/home/pete/.local/lib/python3.4/site-packages/pandas/io/common.py", line 375, in _get_handle
+    f = open(path, mode, errors='replace')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/pete/Repos/test/quality/private/SystemR/admin/capital_test/capital.csv'
+20170211 01:00:01AM,Downloads,ERROR   ,'private'
+Traceback (most recent call last):
+  File "production01_old.py", line 192, in <module>
+    main()
+  File "production01_old.py", line 105, in main
+    new_config = Config(["private.SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: 'private'
+20170211 01:27:31AM,Downloads,ERROR   ,'private'
+Traceback (most recent call last):
+  File "SystemR/production01_old.py", line 192, in <module>
+    main()
+  File "SystemR/production01_old.py", line 105, in main
+    new_config = Config(["private.SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: 'private'
+20170211 01:35:18AM,Downloads,ERROR   ,'~/Repos/test/quality/private'
+Traceback (most recent call last):
+  File "SystemR/production01_old.py", line 192, in <module>
+    main()
+  File "SystemR/production01_old.py", line 105, in main
+    new_config = Config(["~/Repos/test/quality/private.SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: '~/Repos/test/quality/private'
+20170211 01:36:31AM,Downloads,ERROR   ,'~'
+Traceback (most recent call last):
+  File "SystemR/production01_old.py", line 192, in <module>
+    main()
+  File "SystemR/production01_old.py", line 105, in main
+    new_config = Config(["~.Repos.test.quality.private.SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: '~'
+20170211 01:37:19AM,Downloads,ERROR   ,'SystemR'
+Traceback (most recent call last):
+  File "SystemR/production01_old.py", line 192, in <module>
+    main()
+  File "SystemR/production01_old.py", line 105, in main
+    new_config = Config(["SystemR.production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: 'SystemR'
+20170211 01:38:48AM,Downloads,ERROR   ,'/home/pete/Repos/test/quality/private/SystemR/production01.yaml'
+Traceback (most recent call last):
+  File "SystemR/production01_old.py", line 192, in <module>
+    main()
+  File "SystemR/production01_old.py", line 105, in main
+    new_config = Config(["/home/pete/Repos/test/quality/private/SystemR/production01.yaml", my_config_dict])
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 52, in __init__
+    self._create_config_from_item(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/sysdata/configdata.py", line 67, in _create_config_from_item
+    filename = get_filename_for_package(config_item)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 26, in get_filename_for_package
+    return get_pathname_for_package_from_list(path_as_list)
+  File "/home/pete/PycharmProjects/pysystemtrade/syscore/fileutils.py", line 56, in get_pathname_for_package_from_list
+    d = os.path.dirname(sys.modules[package_name].__file__)
+KeyError: '/home/pete/Repos/test/quality/private/SystemR/production01.yaml'
+20170215 10:24:29PM,Downloads,ERROR   ,No module named 'swigibpy'
+Traceback (most recent call last):
+  File "ibcapital.py", line 149, in <module>
+    main()
+  File "ibcapital.py", line 102, in main
+    ib_capital = get_IB_cap()
+  File "ibcapital.py", line 52, in get_IB_cap
+    from wrapper_v5 import IBWrapper, IBclient
+  File "/home/pete/Repos/test/quality/private/SystemR/wrapper_v5.py", line 1, in <module>
+    from swigibpy import EWrapper
+ImportError: No module named 'swigibpy'
+20170218 03:21:40AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "ibcapital.py", line 149, in <module>
+    main()
+  File "ibcapital.py", line 102, in main
+    ib_capital = get_IB_cap()
+  File "ibcapital.py", line 59, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable

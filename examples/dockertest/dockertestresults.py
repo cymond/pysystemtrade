@@ -1,7 +1,7 @@
 from systems.provided.futures_chapter15.basesystem import futures_system
 from matplotlib.pyplot import show
 
-resultsdir="/home/rob/results"
+resultsdir="/home/pete/results"
 
 system = futures_system(log_level="on")
 system.unpickle_cache("", resultsdir+"/dockertest.pck")

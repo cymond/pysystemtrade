@@ -1,0 +1,5 @@
+DIRECTION,PATH
+SYSTEM,/home/pete/Repos/prod1/private/SystemR/
+ADMIN,admin/
+SOURCE,admin/
+DESTINATION,data/

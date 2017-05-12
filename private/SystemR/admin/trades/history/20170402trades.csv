@@ -1,0 +1,8 @@
+Market,Action,Quantity,Notes,Time
+GBL,BUY,1.0,Buy 1 contracts,23:56:43
+ZC,BUY,1.0,Buy 1 contracts,23:56:43
+CL,BUY,1.0,Buy 1 contracts,23:56:43
+GBP,BUY,1.0,Buy 1 contracts,23:56:43
+ZT,BUY,1.0,Buy 1 contracts,23:56:43
+V2TX,SELL,1.0,Sell 1 contracts,23:56:43
+VIX,ROLL,-3.0,from 201705 to 201706,23:56:43

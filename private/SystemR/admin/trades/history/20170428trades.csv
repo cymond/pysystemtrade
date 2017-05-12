@@ -1,0 +1,8 @@
+Market,Action,Quantity,Notes,Time
+HE,BUY,1.0,Buy 1 contracts,01:28:55
+GBM,SELL,1.0,Sell 1 contracts,12:48:24
+HE,BUY,1.0,Buy 1 contracts,12:48:24
+VIX,ROLL,-2.0,from 201706 to 201707,12:48:24
+HE,BUY,1.0,Buy 1 contracts,18:02:30
+VIX,ROLL,-2.0,from 201706 to 201707,18:02:30
+VIX,ROLL,-2.0,from 201706 to 201707,18:07:26

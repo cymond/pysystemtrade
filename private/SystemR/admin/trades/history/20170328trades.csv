@@ -1,0 +1,4 @@
+Market,Action,Quantity,Notes
+BTP,BUY,1.0,Buy 1 contracts
+NG,ROLL,-1.0,from 201705 to 201706
+JPY,BUY,1.0,Buy 1 contracts

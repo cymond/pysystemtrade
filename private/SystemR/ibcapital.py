@@ -25,26 +25,8 @@ def set_logging():
     logger.addHandler(console_handler)
     return logger
 def get_capital_offset():
-    '''
-    <201701 : 65000
-    201702  : 50000
-    201703  : 40000
-    201704  : 30000
-    201705  : 20000
-    201706  : 10000
-    201707  : 0
 
-    '''
-
-    today = time.strftime("%Y%m")
-    year = int(today[:4])
-    month = int(today[4:])
-
-    if year == 2017 and month < 7:
-        offset = (7 - month) * 10000
-    else:
-        offset = 0
-    print("Offset: ", offset)
+    offset = 0
     return offset
 
 def get_IB_cap():
@@ -134,10 +116,7 @@ def   main():
         #cap_df.update(pd.DataFrame())
 
     print(cap_df)
-    print("The End")
-    print(cap_df.index.values)
     types = [type(t) for t in cap_df.index.values]
-    print(types)
     cap_df.to_csv(capital_file)
 
     # Save the file to disk

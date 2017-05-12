@@ -1,0 +1,19 @@
+Market,Action,Quantity,Notes,Time
+NG,SELL,1.0,Sell 1 contracts,02:27:32
+GC,SELL,1.0,Sell 1 contracts,02:27:32
+JPY,SELL,1.0,Sell 1 contracts,02:27:32
+HE,BUY,1.0,Buy 1 contracts,02:27:32
+GBM,SELL,1.0,Sell 1 contracts,12:17:06
+GBL,SELL,1.0,Sell 1 contracts,12:17:06
+NG,SELL,1.0,Sell 1 contracts,12:17:06
+HE,BUY,1.0,Buy 1 contracts,12:17:06
+V2TX,BUY,4.0,Buy 4 contracts,12:17:06
+VIX,BUY,1.0,Buy 1 contracts,12:17:06
+NG,SELL,1.0,Sell 1 contracts,12:19:51
+HE,BUY,1.0,Buy 1 contracts,12:19:51
+V2TX,BUY,4.0,Buy 4 contracts,12:19:51
+VIX,BUY,1.0,Buy 1 contracts,12:19:51
+NG,SELL,1.0,Sell 1 contracts,15:37:02
+HE,BUY,1.0,Buy 1 contracts,15:37:02
+NG,SELL,1.0,Sell 1 contracts,15:47:50
+HE,BUY,1.0,Buy 1 contracts,15:47:50

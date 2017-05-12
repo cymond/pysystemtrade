@@ -20,6 +20,7 @@ def set_logging():
     logger = logging.getLogger('Downloads')
     logger.setLevel(logging.DEBUG)
 
+
     # create file handler which logs even DEBUG messages
     file_handler = logging.FileHandler(logging_file)
     file_handler.setLevel(logging.DEBUG)

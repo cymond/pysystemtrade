@@ -1,0 +1,44 @@
+Market,Action,Quantity,Notes,Time
+NG,ROLL,-1.0,from 201706 to 201707,10:45:10
+HE,SELL,1.0,Sell 1 contracts,10:45:10
+ZS,BUY,1.0,Buy 1 contracts,10:45:10
+ZW,SELL,1.0,Sell 1 contracts,10:45:10
+NG,ROLL,-1.0,from 201706 to 201707,12:45:18
+HE,SELL,1.0,Sell 1 contracts,12:45:18
+ZW,SELL,1.0,Sell 1 contracts,12:45:18
+HE,SELL,1.0,Sell 1 contracts,12:50:06
+ZW,SELL,1.0,Sell 1 contracts,12:50:06
+GBM,BUY,3.0,Buy 3 contracts,15:12:25
+BTP,BUY,1.0,Buy 1 contracts,15:12:25
+GBL,BUY,1.0,Buy 1 contracts,15:12:25
+ZC,SELL,2.0,Sell 2 contracts,15:12:25
+NG,SELL,1.0,Sell 1 contracts,15:12:25
+GC,BUY,1.0,Buy 1 contracts,15:12:25
+JPY,BUY,1.0,Buy 1 contracts,15:12:25
+HE,SELL,3.0,Sell 3 contracts,15:12:25
+LE,BUY,3.0,Buy 3 contracts,15:12:25
+OAT,BUY,1.0,Buy 1 contracts,15:12:25
+ZT,BUY,5.0,Buy 5 contracts,15:12:25
+ZB,BUY,1.0,Buy 1 contracts,15:12:25
+V2TX,SELL,14.0,Sell 14 contracts,15:12:25
+VIX,SELL,3.0,Sell 3 contracts,15:12:25
+ZW,SELL,4.0,Sell 4 contracts,15:12:25
+GBM,BUY,3.0,Buy 3 contracts,15:13:24
+BTP,BUY,1.0,Buy 1 contracts,15:13:24
+GBL,BUY,1.0,Buy 1 contracts,15:13:24
+ZC,SELL,2.0,Sell 2 contracts,15:13:24
+NG,SELL,1.0,Sell 1 contracts,15:13:24
+GC,BUY,1.0,Buy 1 contracts,15:13:24
+JPY,BUY,1.0,Buy 1 contracts,15:13:24
+HE,SELL,3.0,Sell 3 contracts,15:13:24
+LE,BUY,3.0,Buy 3 contracts,15:13:24
+OAT,BUY,1.0,Buy 1 contracts,15:13:24
+ZT,BUY,5.0,Buy 5 contracts,15:13:24
+ZB,BUY,1.0,Buy 1 contracts,15:13:24
+V2TX,SELL,14.0,Sell 14 contracts,15:13:24
+VIX,SELL,3.0,Sell 3 contracts,15:13:24
+ZW,SELL,4.0,Sell 4 contracts,15:13:24
+HE,SELL,1.0,Sell 1 contracts,15:14:23
+ZW,SELL,1.0,Sell 1 contracts,15:14:23
+HE,SELL,1.0,Sell 1 contracts,16:05:49
+ZW,SELL,1.0,Sell 1 contracts,16:05:49

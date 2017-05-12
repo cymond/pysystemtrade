@@ -1,0 +1,13 @@
+Market,Action,Quantity,Notes,Time
+FLKTB,SELL,1.0,Sell 1 contracts,00:09:50
+JPY,SELL,1.0,Sell 1 contracts,07:28:20
+FLKTB,BUY,2.0,Buy 2 contracts,07:28:20
+3KTB,BUY,15.0,Buy 15 contracts,07:28:20
+JPY,SELL,1.0,Sell 1 contracts,11:26:53
+FLKTB,BUY,1.0,Buy 1 contracts,11:26:53
+3KTB,BUY,14.0,Buy 14 contracts,11:26:53
+JPY,SELL,1.0,Sell 1 contracts,12:00:34
+FLKTB,SELL,1.0,Sell 1 contracts,12:00:34
+3KTB,SELL,2.0,Sell 2 contracts,12:00:34
+FLKTB,SELL,1.0,Sell 1 contracts,21:04:54
+3KTB,SELL,2.0,Sell 2 contracts,21:04:54

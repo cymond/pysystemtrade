@@ -1,0 +1,11 @@
+Market,Action,Quantity,Notes,Time
+NG,BUY,1.0,Buy 1 contracts,00:21:27
+GC,SELL,1.0,Sell 1 contracts,00:21:27
+FLKTB,BUY,1.0,Buy 1 contracts,00:21:27
+3KTB,BUY,15.0,Buy 15 contracts,00:21:27
+V2TX,SELL,1.0,Sell 1 contracts,00:21:27
+NG,BUY,1.0,Buy 1 contracts,23:45:53
+GC,SELL,1.0,Sell 1 contracts,23:45:53
+FLKTB,SELL,1.0,Sell 1 contracts,23:45:53
+3KTB,SELL,2.0,Sell 2 contracts,23:45:53
+V2TX,SELL,1.0,Sell 1 contracts,23:45:53

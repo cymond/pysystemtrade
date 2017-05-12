@@ -1014,3 +1014,169 @@ Traceback (most recent call last):
   File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 59, in get_IB_cap
     (account_value, portfolio_data) = client.get_IB_account_data()
 TypeError: 'NoneType' object is not iterable
+20170313 01:55:33AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 146, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 102, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 59, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170314 12:29:53AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 146, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 102, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 59, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170321 06:43:21AM,Downloads,ERROR   ,'the label [NetLiquidation] is not in the [index]'
+Traceback (most recent call last):
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 146, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 102, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 62, in get_IB_cap
+    account = float(account_value_df.loc['NetLiquidation']['VALUE'])
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+20170328 12:02:26AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 128, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 84, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 41, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170420 07:05:32AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 128, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 84, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 41, in get_IB_cap
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170510 07:37:00AM,Downloads,ERROR   ,'the label [NetLiquidation] is not in the [index]'
+Traceback (most recent call last):
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 128, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 84, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 44, in get_IB_cap
+    account = float(account_value_df.loc['NetLiquidation']['VALUE'])
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+20170510 07:37:13AM,Downloads,ERROR   ,'the label [NetLiquidation] is not in the [index]'
+Traceback (most recent call last):
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 128, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 84, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 44, in get_IB_cap
+    account = float(account_value_df.loc['NetLiquidation']['VALUE'])
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+20170510 07:37:35AM,Downloads,ERROR   ,'the label [NetLiquidation] is not in the [index]'
+Traceback (most recent call last):
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 128, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 84, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 44, in get_IB_cap
+    account = float(account_value_df.loc['NetLiquidation']['VALUE'])
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+20170510 10:17:01AM,Downloads,ERROR   ,'the label [NetLiquidation] is not in the [index]'
+Traceback (most recent call last):
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 128, in <module>
+    main()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 84, in main
+    ib_capital = get_IB_cap()
+  File "/home/pete/Repos/prod1/private/SystemR/ibcapital.py", line 44, in get_IB_cap
+    account = float(account_value_df.loc['NetLiquidation']['VALUE'])
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [NetLiquidation] is not in the [index]'

@@ -11,7 +11,7 @@ def set_logging():
     logger = logging.getLogger('Downloads')
     logger.setLevel(logging.DEBUG)
 
-    # create file handler which logs even DEBUG messages
+    # create file han dler which logs even DEBUG messages
     file_handler = logging.FileHandler('admin/logs/download.log')
     file_handler.setLevel(logging.DEBUG)
 

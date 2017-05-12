@@ -75,3 +75,138 @@
 20170302 01:24:16AM,Downloads,INFO    ,SPLICING  : OAT       : Using IB PRICE download files to splice
 20170302 01:24:16AM,Downloads,INFO    ,SPLICING  : OAT       : Stitched PRICE saved to file OAT_price.csv
 20170302 01:24:16AM,Downloads,INFO    ,SPLICING  : OAT       : Stitched CARRY saved to file OAT_carrydata.csv
+20170308 07:05:05AM,Downloads,INFO    ,SPLICING  : KOSPI     : Quandl and IB PRICE download files match
+20170308 07:05:05AM,Downloads,INFO    ,SPLICING  : KOSPI     : Using Quandl PRICE download files to splice
+20170308 07:05:05AM,Downloads,INFO    ,SPLICING  : KOSPI     : Stitched PRICE saved to file KOSPI_price.csv
+20170308 07:05:05AM,Downloads,INFO    ,SPLICING  : KOSPI     : Stitched CARRY saved to file KOSPI_carrydata.csv
+20170310 07:06:15AM,Downloads,INFO    ,SPLICING  : NASDAQ    : Quandl and IB PRICE download files match
+20170310 07:06:15AM,Downloads,INFO    ,SPLICING  : NASDAQ    : Using Quandl PRICE download files to splice
+20170310 07:06:15AM,Downloads,INFO    ,SPLICING  : NASDAQ    : Stitched PRICE saved to file NASDAQ_price.csv
+20170310 07:06:15AM,Downloads,INFO    ,SPLICING  : NASDAQ    : Stitched CARRY saved to file NASDAQ_carrydata.csv
+20170312 10:17:07PM,Downloads,WARNING ,SPLICING  : AUD       , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : AUD       : Using IB PRICE download files to splice
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : AUD       : Stitched PRICE saved to file AUD_price.csv
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : AUD       : Using IBr CARRY download files to splice
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : AUD       : Stitched CARRY saved to file AUD_carrydata.csv
+20170312 10:17:07PM,Downloads,WARNING ,SPLICING  : EUR       , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : EUR       : Using IB PRICE download files to splice
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : EUR       : Stitched PRICE saved to file EUR_price.csv
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : EUR       : Using IBr CARRY download files to splice
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : EUR       : Stitched CARRY saved to file EUR_carrydata.csv
+20170312 10:17:07PM,Downloads,WARNING ,SPLICING  : GBP       , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:07PM,Downloads,INFO    ,SPLICING  : GBP       : Using IB PRICE download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : GBP       : Stitched PRICE saved to file GBP_price.csv
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : GBP       : Using IBr CARRY download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : GBP       : Stitched CARRY saved to file GBP_carrydata.csv
+20170312 10:17:08PM,Downloads,WARNING ,SPLICING  : JPY       , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : JPY       : Using IB PRICE download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : JPY       : Stitched PRICE saved to file JPY_price.csv
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : JPY       : Using IBr CARRY download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : JPY       : Stitched CARRY saved to file JPY_carrydata.csv
+20170312 10:17:08PM,Downloads,WARNING ,SPLICING  : MXP       , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : MXP       : Using IB PRICE download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : MXP       : Stitched PRICE saved to file MXP_price.csv
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : MXP       : Using IBr CARRY download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : MXP       : Stitched CARRY saved to file MXP_carrydata.csv
+20170312 10:17:08PM,Downloads,WARNING ,SPLICING  : NZD       , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : NZD       : Using IB PRICE download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : NZD       : Stitched PRICE saved to file NZD_price.csv
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : NZD       : Stitched CARRY saved to file NZD_carrydata.csv
+20170312 10:17:08PM,Downloads,WARNING ,SPLICING  : SP500     , No match for stitch date 2017-03-10 00:00:00, in Quandl PICE file
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : SP500     : Using IB PRICE download files to splice
+20170312 10:17:08PM,Downloads,INFO    ,SPLICING  : SP500     : Stitched PRICE saved to file SP500_price.csv
+20170312 10:17:09PM,Downloads,INFO    ,SPLICING  : SP500     : Using IBr CARRY download files to splice
+20170312 10:17:09PM,Downloads,INFO    ,SPLICING  : SP500     : Stitched CARRY saved to file SP500_carrydata.csv
+20170314 12:38:28AM,Downloads,WARNING ,SPLICING  : AEX       , No match for stitch date 2017-03-13 00:00:00, in IB PICE file
+20170314 12:38:28AM,Downloads,INFO    ,SPLICING  : AEX       : Using Quandl PRICE download files to splice
+20170314 12:38:28AM,Downloads,INFO    ,SPLICING  : AEX       : Stitched PRICE saved to file AEX_price.csv
+20170314 12:38:28AM,Downloads,INFO    ,SPLICING  : AEX       : Stitched CARRY saved to file AEX_carrydata.csv
+20170314 12:38:28AM,Downloads,WARNING ,SPLICING  : CAC       , No match for stitch date 2017-03-13 00:00:00, in IB PICE file
+20170314 12:38:28AM,Downloads,INFO    ,SPLICING  : CAC       : Using Quandl PRICE download files to splice
+20170314 12:38:28AM,Downloads,INFO    ,SPLICING  : CAC       : Stitched PRICE saved to file CAC_price.csv
+20170314 12:38:28AM,Downloads,INFO    ,SPLICING  : CAC       : Stitched CARRY saved to file CAC_carrydata.csv
+20170314 12:38:28AM,Downloads,ERROR   ,SPLICING  : EUROSTX   , stitch date 2017-03-13 00:00:00, not in legacy PICE file
+20170314 12:38:28AM,Downloads,ERROR   ,SPLICING  : SMI       , stitch date 2017-03-13 00:00:00, not in legacy PICE file
+20170314 06:52:09AM,Downloads,ERROR   ,SPLICING  : EUROSTX   , stitch date 2017-03-13 00:00:00, not in legacy PICE file
+20170314 06:52:09AM,Downloads,ERROR   ,SPLICING  : SMI       , stitch date 2017-03-13 00:00:00, not in legacy PICE file
+20170314 06:53:17AM,Downloads,INFO    ,SPLICING  : EUROSTX   : Quandl and IB PRICE download files match
+20170314 06:53:17AM,Downloads,INFO    ,SPLICING  : EUROSTX   : Using Quandl PRICE download files to splice
+20170314 06:53:18AM,Downloads,INFO    ,SPLICING  : EUROSTX   : Stitched PRICE saved to file EUROSTX_price.csv
+20170314 06:53:18AM,Downloads,INFO    ,SPLICING  : EUROSTX   : Stitched CARRY saved to file EUROSTX_carrydata.csv
+20170314 06:53:18AM,Downloads,INFO    ,SPLICING  : SMI       : Quandl and IB PRICE download files match
+20170314 06:53:18AM,Downloads,INFO    ,SPLICING  : SMI       : Using Quandl PRICE download files to splice
+20170314 06:53:18AM,Downloads,INFO    ,SPLICING  : SMI       : Stitched PRICE saved to file SMI_price.csv
+20170314 06:53:18AM,Downloads,INFO    ,SPLICING  : SMI       : Stitched CARRY saved to file SMI_carrydata.csv
+20170315 01:47:17AM,Downloads,ERROR   ,SPLICING  : V2X       , stitch date 2017-03-14 00:00:00, not in legacy PICE file
+20170315 01:47:39AM,Downloads,ERROR   ,SPLICING  : V2X       , stitch date 2017-03-14 00:00:00, not in legacy PICE file
+20170315 07:12:14AM,Downloads,INFO    ,SPLICING  : V2X       : Quandl and IB PRICE download files match
+20170315 07:12:14AM,Downloads,INFO    ,SPLICING  : V2X       : Using Quandl PRICE download files to splice
+20170315 07:12:14AM,Downloads,INFO    ,SPLICING  : V2X       : Stitched PRICE saved to file V2X_price.csv
+20170315 07:12:14AM,Downloads,INFO    ,SPLICING  : V2X       : Stitched CARRY saved to file V2X_carrydata.csv
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR10      : Quandl and IB PRICE download files match
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR10      : Using Quandl PRICE download files to splice
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR10      : Stitched PRICE saved to file KR10_price.csv
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR10      : Stitched CARRY saved to file KR10_carrydata.csv
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR3       : Quandl and IB PRICE download files match
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR3       : Using Quandl PRICE download files to splice
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR3       : Stitched PRICE saved to file KR3_price.csv
+20170322 12:35:09AM,Downloads,INFO    ,SPLICING  : KR3       : Stitched CARRY saved to file KR3_carrydata.csv
+20170324 07:04:31AM,Downloads,INFO    ,SPLICING  : GAS_US    : Quandl and IB PRICE download files match
+20170324 07:04:31AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using Quandl PRICE download files to splice
+20170324 07:04:31AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170324 07:04:31AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170326 11:59:17PM,Downloads,ERROR   ,SPLICING  : GAS_US    , stitch date 2016-11-23 00:00:00, not in legacy PICE file
+20170327 12:00:43AM,Downloads,INFO    ,SPLICING  : GAS_US    : Quandl and IB PRICE download files match
+20170327 12:00:43AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using Quandl PRICE download files to splice
+20170327 12:00:43AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170327 12:00:44AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170327 12:02:47AM,Downloads,INFO    ,SPLICING  : GAS_US    : Quandl and IB PRICE download files match
+20170327 12:02:47AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using Quandl PRICE download files to splice
+20170327 12:02:47AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170327 12:02:47AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170327 12:03:39AM,Downloads,INFO    ,SPLICING  : GAS_US    : Quandl and IB PRICE download files match
+20170327 12:03:39AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using Quandl PRICE download files to splice
+20170327 12:03:40AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170327 12:03:40AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170327 12:04:00AM,Downloads,INFO    ,SPLICING  : GAS_US    : Quandl and IB PRICE download files match
+20170327 12:04:00AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using Quandl PRICE download files to splice
+20170327 12:04:01AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170327 12:04:01AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170327 12:04:17AM,Downloads,INFO    ,SPLICING  : GAS_US    : Quandl and IB PRICE download files match
+20170327 12:04:17AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using Quandl PRICE download files to splice
+20170327 12:04:17AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170327 12:04:17AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170402 11:37:31PM,Downloads,INFO    ,SPLICING  : PLAT      : Quandl and IB PRICE download files match
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : PLAT      : Using Quandl PRICE download files to splice
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : PLAT      : Stitched PRICE saved to file PLAT_price.csv
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : PLAT      : Stitched CARRY saved to file PLAT_carrydata.csv
+20170402 11:37:32PM,Downloads,WARNING ,SPLICING  : VIX       , No match for stitch date 2017-03-31 00:00:00, in Quandl PICE file
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : VIX       : Using IB PRICE download files to splice
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : VIX       : Stitched PRICE saved to file VIX_price.csv
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : VIX       : Using IBr CARRY download files to splice
+20170402 11:37:32PM,Downloads,INFO    ,SPLICING  : VIX       : Stitched CARRY saved to file VIX_carrydata.csv
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : AEX       : Quandl and IB PRICE download files match
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : AEX       : Using Quandl PRICE download files to splice
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : AEX       : Stitched PRICE saved to file AEX_price.csv
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : AEX       : Stitched CARRY saved to file AEX_carrydata.csv
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : CAC       : Quandl and IB PRICE download files match
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : CAC       : Using Quandl PRICE download files to splice
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : CAC       : Stitched PRICE saved to file CAC_price.csv
+20170412 07:08:47AM,Downloads,INFO    ,SPLICING  : CAC       : Stitched CARRY saved to file CAC_carrydata.csv
+20170421 07:22:05AM,Downloads,INFO    ,SPLICING  : V2X       : Quandl and IB PRICE download files match
+20170421 07:22:05AM,Downloads,INFO    ,SPLICING  : V2X       : Using Quandl PRICE download files to splice
+20170421 07:22:05AM,Downloads,INFO    ,SPLICING  : V2X       : Stitched PRICE saved to file V2X_price.csv
+20170421 07:22:05AM,Downloads,INFO    ,SPLICING  : V2X       : Stitched CARRY saved to file V2X_carrydata.csv
+20170424 09:37:41AM,Downloads,WARNING ,SPLICING  : GAS_US    , No match for stitch date 2017-04-21 00:00:00, in Quandl PICE file
+20170424 09:37:41AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using IB PRICE download files to splice
+20170424 09:37:41AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched PRICE saved to file GAS_US_price.csv
+20170424 09:37:41AM,Downloads,INFO    ,SPLICING  : GAS_US    : Using IBr CARRY download files to splice
+20170424 09:37:41AM,Downloads,INFO    ,SPLICING  : GAS_US    : Stitched CARRY saved to file GAS_US_carrydata.csv
+20170428 01:06:59AM,Downloads,ERROR   ,SPLICING  : VIX       , stitch date 2017-04-27 00:00:00, not in legacy PICE file
+20170428 01:08:29AM,Downloads,ERROR   ,SPLICING  : VIX       , stitch date 2017-04-27 00:00:00, not in legacy PICE file
+20170428 10:34:52AM,Downloads,ERROR   ,SPLICING  : VIX       , stitch date 2017-04-27 00:00:00, not in legacy PICE file
+20170428 11:03:43AM,Downloads,WARNING ,SPLICING  : VIX       , No match for stitch date 2017-04-27 00:00:00, in Quandl PICE file
+20170428 11:03:43AM,Downloads,INFO    ,SPLICING  : VIX       : Using IB PRICE download files to splice
+20170428 11:03:43AM,Downloads,INFO    ,SPLICING  : VIX       : Stitched PRICE saved to file VIX_price.csv
+20170428 11:03:43AM,Downloads,INFO    ,SPLICING  : VIX       : Using IBr CARRY download files to splice
+20170428 11:03:43AM,Downloads,INFO    ,SPLICING  : VIX       : Stitched CARRY saved to file VIX_carrydata.csv

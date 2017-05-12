@@ -1,0 +1,26 @@
+Market,Action,Quantity,Notes,Time
+EUR,BUY,1.0,Buy 1 contracts,01:55:25
+GC,BUY,1.0,Buy 1 contracts,01:55:25
+HE,SELL,1.0,Sell 1 contracts,01:55:25
+LE,BUY,1.0,Buy 1 contracts,01:55:25
+ZT,BUY,1.0,Buy 1 contracts,01:55:25
+V2TX,SELL,1.0,Sell 1 contracts,01:55:25
+HE,SELL,1.0,Sell 1 contracts,02:00:47
+LE,BUY,1.0,Buy 1 contracts,02:00:47
+ZT,BUY,1.0,Buy 1 contracts,02:00:47
+V2TX,SELL,1.0,Sell 1 contracts,02:00:47
+ZC,BUY,1.0,Buy 1 contracts,13:15:47
+GC,BUY,1.0,Buy 1 contracts,13:15:47
+HE,SELL,1.0,Sell 1 contracts,13:15:47
+LE,BUY,1.0,Buy 1 contracts,13:15:47
+V2TX,SELL,1.0,Sell 1 contracts,13:15:47
+ZC,SELL,1.0,Sell 1 contracts,15:31:44
+GC,BUY,1.0,Buy 1 contracts,15:31:44
+HE,SELL,1.0,Sell 1 contracts,15:31:44
+LE,BUY,1.0,Buy 1 contracts,15:31:44
+ZC,SELL,1.0,Sell 1 contracts,15:32:34
+GC,BUY,1.0,Buy 1 contracts,15:32:34
+HE,SELL,1.0,Sell 1 contracts,15:32:34
+ZC,SELL,1.0,Sell 1 contracts,15:33:35
+GC,BUY,1.0,Buy 1 contracts,15:33:35
+GC,BUY,1.0,Buy 1 contracts,15:48:26

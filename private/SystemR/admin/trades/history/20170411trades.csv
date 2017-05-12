@@ -1,0 +1,12 @@
+Market,Action,Quantity,Notes,Time
+CL,BUY,1.0,Buy 1 contracts,01:05:54
+EUR,SELL,1.0,Sell 1 contracts,01:05:54
+NG,SELL,1.0,Sell 1 contracts,01:05:54
+OAT,BUY,1.0,Buy 1 contracts,01:05:54
+V2TX,SELL,2.0,Sell 2 contracts,01:05:54
+EUR,SELL,1.0,Sell 1 contracts,07:39:48
+NG,SELL,1.0,Sell 1 contracts,07:39:48
+OAT,BUY,1.0,Buy 1 contracts,07:39:48
+NG,SELL,1.0,Sell 1 contracts,10:04:41
+OAT,BUY,1.0,Buy 1 contracts,10:04:41
+NG,SELL,1.0,Sell 1 contracts,10:08:07

@@ -3,6 +3,7 @@ from dateutil.relativedelta import *
 import os,sys
 import logging
 import pandas as pd
+import time
 from time import sleep
 
 
@@ -132,6 +133,7 @@ def main():
         merged_positions['POSITION'] = merged_positions['POSITION'].astype(int)
 
         actual_positions = merged_positions[(merged_positions.QUANTITY != 0) | (merged_positions.POSITION != 0)]
+        print("Actual Positions")
         print(actual_positions)
         print()
         sleep(1)
@@ -149,6 +151,7 @@ def main():
             if tuple.MATURITY == expiry and tuple.POSITION == tuple.QUANTITY:
                 logger.info("OK        : {:<6}: {:<6}: {:<3}: Position is OK".format(market, expiry, tuple.POSITION))
         logger.debug("")
+        trades_df = pd.DataFrame(columns=['Market','Action','Quantity','Notes'])
         for tuple in actual_positions.itertuples():
             market = tuple.Index
             expiry = tuple.EXPIRY
@@ -157,16 +160,65 @@ def main():
                 foward_date = date + relativedelta(months=1)
                 expiry = "{:%Y%m}".format(foward_date)
             if tuple.MATURITY != expiry and pd.notnull(expiry):
+                units = tuple.QUANTITY
                 logger.error("ROLL      : {:<10}: from {} to {}".format(market, expiry, tuple.MATURITY))
+                add_df = pd.DataFrame([{ 'Market': market,\
+                                         'Action':"ROLL", \
+                                         'Quantity': units,\
+                                         "Notes": "from {} to {}".format(expiry, tuple.MATURITY)}])
+                print(add_df)
+                trades_df = trades_df.append(add_df)
             if tuple.QUANTITY > tuple.POSITION:
                 units = tuple.QUANTITY - tuple.POSITION
                 logger.error("BUY       : {:<6}{:<6}: Buy {} contracts".format(market, tuple.MATURITY, units))
+                add_df = pd.DataFrame([{'Market': market,\
+                                         'Action':"BUY", \
+                                         'Quantity': units,\
+                                         "Notes": "Buy {} contracts".format(units)}])
+                print(add_df)
+                trades_df = trades_df.append(add_df)
             if tuple.QUANTITY < tuple.POSITION:
                 units = tuple.POSITION - tuple.QUANTITY
                 logger.error("SELL      : {:<6}{:<6}: Sell {} contracts".format(market, tuple.MATURITY, units))
+                add_df = pd.DataFrame([{'Market': market,\
+                                         'Action':"SELL", \
+                                         'Quantity': units,\
+                                         "Notes": "Sell {} contracts".format(units)}])
+                #print(add_df)
 
-        #print("\n account info")
-        #print(account_value)
+                trades_df = trades_df.append(add_df)
+
+        today_date = time.strftime("%Y%m%d")
+        today_time = time.strftime("%H:%M:%S")
+        print("time", today_time)
+        trades_df['Time'] = today_time
+        trades_df = trades_df[['Market', 'Action', 'Quantity', 'Notes', 'Time']]
+        trades_df.set_index(['Market'], inplace=True)
+
+
+
+        trades_file = 'admin/trades/trades.csv'
+        trades_history_file = 'admin/trades/history/' + today_date + 'trades.csv'
+        trades_df.to_csv(trades_file)
+        #print("trades_df-----------------------------------------------")
+
+        #print(trades_df)
+        if os.path.isfile(trades_history_file):
+            amtrades_df = pd.read_csv(trades_history_file, \
+                                      usecols=['Market', 'Action', 'Quantity', 'Notes','Time'] \
+                                      ,dtype={'Market': str, 'Action': str,'Notes': str})
+            amtrades_df.set_index(['Market'],inplace=True)
+            #trades_df.reset_index(inplace=True)
+            #print(trades_df)
+            #print(amtrades_df)
+            addtrades_df = pd.concat([amtrades_df, trades_df])
+        else:
+            addtrades_df = trades_df
+        print("today's merged trades...")
+        print(trades_df)
+
+        addtrades_df.to_csv(trades_history_file)
+        #print(add_df)
 
 
 

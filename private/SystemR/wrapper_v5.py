@@ -18,7 +18,7 @@ def return_IB_connection_info():
     host=""
    
     port=7496
-    clientid=999
+    clientid=1
    
     return (host, port, clientid)
 

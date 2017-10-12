@@ -1,2 +1,9 @@
 Market,Action,Quantity,Notes,Time
-BTP,SELL,1.0,Sell 1 contracts,09:26:23
+NG,SELL,1.0,Sell 1 contracts,05:11:24
+PA,SELL,1.0,Sell 1 contracts,05:11:24
+ZT,SELL,1.0,Sell 1 contracts,05:11:24
+ZB,BUY,1.0,Buy 1 contracts,05:11:24
+V2TX,ROLL,-9.0,from 201709 to 201710,05:11:24
+V2TX,BUY,1.0,Buy 1 contracts,05:11:24
+VIX,ROLL,-1.0,from 201709 to 20171018,05:11:24
+ZW,SELL,1.0,Sell 1 contracts,05:11:24

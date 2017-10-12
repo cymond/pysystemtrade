@@ -23,7 +23,7 @@ def return_IB_connection_info():
     host=""
    
     port=7496
-    clientid=999
+    clientid=1
    
     return (host, port, clientid)
 
@@ -101,21 +101,23 @@ class IBWrapper(EWrapper):
         else:
             historicdata=self.data_historicdata[reqId]
             #date=datetime.datetime.strptime(date,"%Y%m%d")
-            date = datetime.datetime.strptime(date, "%Y%m%d")
+            # Comment line below to avoid errors whilst getting hourly data
+            #date = datetime.datetime.strptime(date, "%Y%m%d")
             historicdata.add_row(date=date, open=openprice, high=high, low=low, close=close, volume=volume)
 
 
 class IBclient(object):
     def __init__(self, callback):
-        tws = EPosixClientSocket(callback)
-        (host, port, clientid)=return_IB_connection_info()
-        tws.eConnect(host, port, clientid)
+        if not hasattr(self, 'tws'):
+            tws = EPosixClientSocket(callback)
+            (host, port, clientid)=return_IB_connection_info()
+            tws.eConnect(host, port, clientid)
 
-        self.tws=tws
-        self.cb=callback
+            self.tws=tws
+            self.cb=callback
 
     
-    def get_IB_historical_data(self, ibcontract, durationStr="3 M", barSizeSetting="1 day", tickerid=MEANINGLESS_NUMBER, whatToShow="TRADES"):
+    def get_IB_historical_data(self, ibcontract, end_date, durationStr="1 W", barSizeSetting="1 hour", tickerid=MEANINGLESS_NUMBER, whatToShow="TRADES"):
         
         """
         Returns historical prices for a contract, up to today
@@ -130,10 +132,12 @@ class IBclient(object):
         # Neet to watch holidays too! I think IB returns OHLC even though there were no trades!
         exchange = ibcontract.exchange
         if exchange == 'KSE':
+            today = datetime.datetime.now(timezone('Asia/Tokyo'))
             yesterday = datetime.datetime.now(timezone('Asia/Tokyo')) - datetime.timedelta(1)
             last_yesterday = yesterday.replace(hour=23, minute=59, second=59)
             #print("End date and time: ", last_yesterday.strftime("%Y%m%d %H:%M:%S %Z"))
         else:
+            today = datetime.datetime.now(timezone('GMT'))
             yesterday = datetime.datetime.now(timezone('GMT')) - datetime.timedelta(1)
             last_yesterday = yesterday.replace(hour=23, minute=59, second=59)
             #print("End date and time: ", last_yesterday.strftime("%Y%m%d %H:%M:%S %Z"))
@@ -146,8 +150,9 @@ class IBclient(object):
         self.tws.reqHistoricalData(
                 tickerid,                                          # tickerId,
                 ibcontract,                                   # contract,
-                last_yesterday.strftime("%Y%m%d %H:%M:%S %Z"),       # endDateTime,
+                #last_yesterday.strftime("%Y%m%d %H:%M:%S %Z"),       # endDateTime,
                 # "20160201 23:00:00 GMT",
+                end_date.strftime("%Y%m%d %H:%M:%S %Z"),
                 durationStr,                                      # durationStr,
                 barSizeSetting,                                    # barSizeSetting,
                 whatToShow,                                   # whatToShow,
@@ -182,5 +187,8 @@ class IBclient(object):
         historicdata=self.cb.data_historicdata[tickerid]
 
         results=historicdata.to_pandas("date")
+
+
+        print("------------------------------DISCONNECTED!---------------------------------")
 
         return results

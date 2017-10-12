@@ -56,6 +56,7 @@ def main():
 
     from sysdata.configdata import Config
     from sysdata.csvdata import csvFuturesData
+    from private.SystemR.mysqldata import mysqlFuturesData
     from systems.provided.futures_chapter15.estimatedsystem import futures_system
     import pandas as pd
     import numpy as np
@@ -76,10 +77,12 @@ def main():
         capital_file = admin_path + 'capital_test/capital.csv'
 
         # **** Point to data  ****
-        data = csvFuturesData("private.SystemR.data")
+        #data = csvFuturesData("private.SystemR.data")
+
+        data = mysqlFuturesData()
 
         new_config = Config("private.SystemR.production01.yaml")
-        system = futures_system(data=data,config=new_config,log_level="off")
+        system = futures_system(data=data,config=new_config,log_level="on")
         print("Before un-pickling...............")
         print("Items with data: ", system.get_items_with_data())  ## check empty cache
 

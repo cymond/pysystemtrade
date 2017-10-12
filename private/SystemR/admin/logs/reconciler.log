@@ -6761,3 +6761,1435 @@ TypeError: 'NoneType' object is not iterable
 20170512 09:26:23AM,Downloads,INFO    ,OK        : ZW    : 201712: -2 : Position is OK
 20170512 09:26:23AM,Downloads,DEBUG   ,
 20170512 09:26:23AM,Downloads,ERROR   ,SELL      : BTP   201706: Sell 1 contracts
+20170521 06:47:13PM,Downloads,ERROR   ,No module named 'swigibpy'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 239, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 65, in main
+    from wrapper_v5 import IBWrapper, IBclient
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/wrapper_v5.py", line 1, in <module>
+    from swigibpy import EWrapper
+ImportError: No module named 'swigibpy'
+20170521 07:02:05PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 239, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 120, in main
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170521 07:05:29PM,Downloads,DEBUG   ,
+20170521 07:05:29PM,Downloads,INFO    ,OK        : GBM   : 201706: 1  : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : CL    : 201712: -1 : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : NG    : 201707: -1 : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : FLKTB : 201706: -1 : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : MXP   : 201706: 3  : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : OAT   : 201706: 1  : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : ZT    : 201706: 5  : Position is OK
+20170521 07:05:29PM,Downloads,INFO    ,OK        : ZW    : 201712: -2 : Position is OK
+20170521 07:05:29PM,Downloads,DEBUG   ,
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : AUD   201706: Sell 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : BTP   201706: Sell 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : GC    201706: Sell 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : JPY   201706: Sell 2 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : HE    201706: Sell 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,BUY       : LE    201710: Buy 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,BUY       : NQ    201706: Buy 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,BUY       : ZS    201711: Buy 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,ROLL      : V2TX      : from 201707 to 201706
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : V2TX  201706: Sell 1 contracts
+20170521 07:05:29PM,Downloads,ERROR   ,SELL      : VIX   201707: Sell 1 contracts
+20170521 11:27:39PM,Downloads,DEBUG   ,
+20170521 11:27:39PM,Downloads,INFO    ,OK        : GBM   : 201706: 1  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : BTP   : 201706: 1  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : NG    : 201707: -1 : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : FLKTB : 201706: -1 : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : HE    : 201706: 1  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : LE    : 201710: 1  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : MXP   : 201706: 3  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : OAT   : 201706: 1  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : ZT    : 201706: 5  : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : VIX   : 201707: -2 : Position is OK
+20170521 11:27:39PM,Downloads,INFO    ,OK        : ZW    : 201712: -2 : Position is OK
+20170521 11:27:39PM,Downloads,DEBUG   ,
+20170521 11:27:39PM,Downloads,ERROR   ,BUY       : CL    201712: Buy 1 contracts
+20170521 11:27:39PM,Downloads,ERROR   ,BUY       : GE    202006: Buy 1 contracts
+20170521 11:27:39PM,Downloads,ERROR   ,BUY       : 3KTB  201706: Buy 1 contracts
+20170521 11:27:39PM,Downloads,ERROR   ,SELL      : V2TX  201707: Sell 1 contracts
+20170524 09:53:58PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 239, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 120, in main
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170524 09:59:01PM,Downloads,DEBUG   ,
+20170524 09:59:01PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170524 09:59:01PM,Downloads,INFO    ,OK        : OAT   : 201706: 1  : Position is OK
+20170524 09:59:01PM,Downloads,DEBUG   ,
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : EOE   201705: Buy 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : GBM   201706: Buy 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : BTP   201706: Sell 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : CL    201712: Sell 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,ROLL      : GE        : from 202006 to 202003
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : GE    202003: Sell 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,ROLL      : NG        : from 201708 to 201707
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : GBP   201706: Buy 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : K200  201706: Buy 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : FLKTB 201706: Buy 2 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : 3KTB  201706: Buy 3 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : HE    201706: Sell 2 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : LE    201710: Buy 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : MXP   201706: Sell 4 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : NQ    201706: Buy 1 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,ROLL      : ZT        : from 201709 to 201706
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : ZT    201706: Sell 2 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,ROLL      : V2TX      : from 201707 to 201706
+20170524 09:59:01PM,Downloads,ERROR   ,BUY       : V2TX  201706: Buy 5 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : VIX   201707: Sell 2 contracts
+20170524 09:59:01PM,Downloads,ERROR   ,SELL      : ZW    201712: Sell 2 contracts
+20170528 12:20:30PM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 239, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 120, in main
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170528 12:25:08PM,Downloads,DEBUG   ,
+20170528 12:25:08PM,Downloads,INFO    ,OK        : GBM   : 201706: 1  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : BTP   : 201706: 2  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : NG    : 201708: -1 : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : FLKTB : 201706: -1 : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : 3KTB  : 201706: 1  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : HE    : 201706: 2  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : LE    : 201710: 1  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : MXP   : 201706: 5  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : NQ    : 201706: 1  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : OAT   : 201706: 1  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : ZS    : 201711: -1 : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : ZT    : 201709: 5  : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : V2TX  : 201707: -13: Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : VIX   : 201707: -2 : Position is OK
+20170528 12:25:08PM,Downloads,INFO    ,OK        : ZW    : 201712: -3 : Position is OK
+20170528 12:25:08PM,Downloads,DEBUG   ,
+20170531 01:00:50AM,Downloads,DEBUG   ,
+20170531 01:00:50AM,Downloads,INFO    ,OK        : GBM   : 201706: 1  : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : BTP   : 201706: 1  : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : GBP   : 201706: -1 : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : LE    : 201710: 1  : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : NQ    : 201706: 1  : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : ZS    : 201711: -1 : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : VIX   : 201707: -2 : Position is OK
+20170531 01:00:50AM,Downloads,INFO    ,OK        : ZW    : 201712: -3 : Position is OK
+20170531 01:00:50AM,Downloads,DEBUG   ,
+20170531 01:00:50AM,Downloads,ERROR   ,SELL      : NG    201708: Sell 1 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,BUY       : K200  201706: Buy 1 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,BUY       : FLKTB 201706: Buy 2 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,BUY       : 3KTB  201706: Buy 5 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,SELL      : HE    201706: Sell 3 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,SELL      : MXP   201706: Sell 5 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,SELL      : OAT   201706: Sell 1 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 1 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,BUY       : ZB    201709: Buy 1 contracts
+20170531 01:00:50AM,Downloads,ERROR   ,BUY       : V2TX  201707: Buy 7 contracts
+20170531 11:31:01PM,Downloads,DEBUG   ,
+20170531 11:31:01PM,Downloads,INFO    ,OK        : GBM   : 201706: 1  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : BTP   : 201706: 1  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : NG    : 201708: -2 : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : GBP   : 201706: -1 : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : LE    : 201710: 1  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : MXP   : 201706: 5  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : NQ    : 201706: 1  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : ZS    : 201711: -2 : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : ZB    : 201709: 1  : Position is OK
+20170531 11:31:01PM,Downloads,INFO    ,OK        : VIX   : 201707: -2 : Position is OK
+20170531 11:31:01PM,Downloads,DEBUG   ,
+20170531 11:31:01PM,Downloads,ERROR   ,BUY       : K200  201706: Buy 1 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,BUY       : FLKTB 201706: Buy 1 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,BUY       : 3KTB  201706: Buy 4 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,SELL      : HE    201706: Sell 3 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,SELL      : OAT   201706: Sell 1 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 1 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,BUY       : V2TX  201707: Buy 7 contracts
+20170531 11:31:02PM,Downloads,ERROR   ,SELL      : ZW    201712: Sell 1 contracts
+20170809 10:23:39PM,Downloads,DEBUG   ,
+20170809 10:23:39PM,Downloads,INFO    ,OK        : AUD   : 201709: 1  : Position is OK
+20170809 10:23:39PM,Downloads,INFO    ,OK        : GBM   : 201709: 1  : Position is OK
+20170809 10:23:39PM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170809 10:23:39PM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170809 10:23:39PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170809 10:23:39PM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170809 10:23:39PM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170809 10:23:39PM,Downloads,DEBUG   ,
+20170809 10:23:39PM,Downloads,ERROR   ,BUY       : EOE   201708: Buy 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,BUY       : GBL   201709: Buy 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,SELL      : NG    201710: Sell 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,BUY       : K200  201709: Buy 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 5 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,SELL      : HE    201806: Sell 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,SELL      : MXP   201709: Sell 7 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 2 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,BUY       : V2TX  201709: Buy 7 contracts
+20170809 10:23:39PM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170809 10:23:39PM,Downloads,ERROR   ,SELL      : VIX   20170920: Sell 1 contracts
+20170810 01:16:12AM,Downloads,DEBUG   ,
+20170810 01:16:12AM,Downloads,INFO    ,OK        : AUD   : 201709: 1  : Position is OK
+20170810 01:16:12AM,Downloads,INFO    ,OK        : GBM   : 201709: 1  : Position is OK
+20170810 01:16:12AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170810 01:16:12AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170810 01:16:12AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170810 01:16:12AM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170810 01:16:12AM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170810 01:16:12AM,Downloads,DEBUG   ,
+20170810 01:16:12AM,Downloads,ERROR   ,BUY       : EOE   201708: Buy 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,BUY       : GBL   201709: Buy 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,SELL      : NG    201710: Sell 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,BUY       : K200  201709: Buy 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 5 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,SELL      : HE    201806: Sell 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,SELL      : MXP   201709: Sell 7 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 2 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,BUY       : V2TX  201709: Buy 7 contracts
+20170810 01:16:12AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170810 01:16:12AM,Downloads,ERROR   ,SELL      : VIX   20170920: Sell 1 contracts
+20170810 06:45:42AM,Downloads,DEBUG   ,
+20170810 06:45:42AM,Downloads,DEBUG   ,
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : AUD       : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : GBM       : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : BTP       : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : HG        : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : ZC        : from 201712 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : GE        : from 202006 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : NG        : from 201710 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : FLKTB     : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : 3KTB      : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : HE        : from 201806 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : MXP       : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : PA        : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : ZT        : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : V2TX      : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to nan
+20170810 06:45:42AM,Downloads,ERROR   ,ROLL      : ZW        : from 201712 to nan
+20170810 01:18:25PM,Downloads,DEBUG   ,
+20170810 01:18:25PM,Downloads,INFO    ,OK        : AUD   : 201709: 1  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : GBM   : 201709: 1  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : ZT    : 201709: 4  : Position is OK
+20170810 01:18:25PM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170810 01:18:25PM,Downloads,DEBUG   ,
+20170810 01:18:25PM,Downloads,ERROR   ,BUY       : GBL   201709: Buy 1 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,SELL      : NG    201710: Sell 1 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 3 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 8 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,SELL      : HE    201806: Sell 1 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,BUY       : V2TX  201709: Buy 3 contracts
+20170810 01:18:25PM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170810 01:18:25PM,Downloads,ERROR   ,SELL      : VIX   20170920: Sell 2 contracts
+20170812 01:56:30AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 239, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 120, in main
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170814 05:58:41PM,Downloads,DEBUG   ,
+20170814 05:58:41PM,Downloads,DEBUG   ,
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : AUD       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : GBM       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : BTP       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : GBL       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : HG        : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : ZC        : from 201712 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : GE        : from 202006 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : NG        : from 201710 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : JPY       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : FLKTB     : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : 3KTB      : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : HE        : from 201806 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : MXP       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : PA        : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : ZT        : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : ZF        : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : V2TX      : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to nan
+20170814 05:58:41PM,Downloads,ERROR   ,ROLL      : ZW        : from 201712 to nan
+20170815 12:01:14AM,Downloads,DEBUG   ,
+20170815 12:08:22AM,Downloads,INFO    ,OK        : AUD   : 201709: 1  : Position is OK
+20170815 12:08:23AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170815 12:08:25AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170815 12:08:26AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170815 12:08:27AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170815 12:08:29AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170815 12:08:30AM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170815 12:09:33AM,Downloads,INFO    ,OK        : NG    : 201710: -1 : Position is OK
+20170815 12:09:33AM,Downloads,INFO    ,OK        : JPY   : 201709: 1  : Position is OK
+20170815 12:09:33AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170815 12:09:33AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170815 12:09:33AM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170815 12:09:52AM,Downloads,DEBUG   ,
+20170815 12:09:52AM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 2 contracts
+20170815 12:09:52AM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 6 contracts
+20170815 12:09:52AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170815 12:09:52AM,Downloads,ERROR   ,BUY       : ZT    201709: Buy 1 contracts
+20170815 12:09:52AM,Downloads,ERROR   ,SELL      : ZF    201709: Sell 1 contracts
+20170815 12:09:52AM,Downloads,ERROR   ,BUY       : V2TX  201709: Buy 1 contracts
+20170815 12:09:52AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170815 12:10:37AM,Downloads,DEBUG   ,
+20170815 12:10:37AM,Downloads,INFO    ,OK        : AUD   : 201709: 1  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : NG    : 201710: -1 : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : JPY   : 201709: 1  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170815 12:10:37AM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170815 12:10:50AM,Downloads,DEBUG   ,
+20170815 12:26:53AM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 2 contracts
+20170815 12:30:48AM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 6 contracts
+20170815 12:30:48AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170815 12:30:48AM,Downloads,ERROR   ,BUY       : ZT    201709: Buy 1 contracts
+20170815 12:30:48AM,Downloads,ERROR   ,SELL      : ZF    201709: Sell 1 contracts
+20170815 12:30:48AM,Downloads,ERROR   ,BUY       : V2TX  201709: Buy 1 contracts
+20170815 12:30:48AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170816 06:17:32AM,Downloads,DEBUG   ,
+20170816 06:17:32AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : GE    : 202006: 1  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : NG    : 201710: -1 : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : V2TX  : 201709: -11: Position is OK
+20170816 06:17:32AM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170816 06:17:32AM,Downloads,DEBUG   ,
+20170816 06:17:32AM,Downloads,ERROR   ,BUY       : AUD   201709: Buy 1 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,BUY       : GBP   201709: Buy 1 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,BUY       : JPY   201709: Buy 1 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 2 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 7 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,BUY       : ZT    201709: Buy 1 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,SELL      : ZF    201709: Sell 1 contracts
+20170816 06:17:32AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170817 01:53:12AM,Downloads,DEBUG   ,
+20170817 01:53:12AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : NG    : 201710: -1 : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : V2TX  : 201709: -11: Position is OK
+20170817 01:53:12AM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170817 01:53:12AM,Downloads,DEBUG   ,
+20170817 01:53:12AM,Downloads,ERROR   ,BUY       : AUD   201709: Buy 1 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,ROLL      : GE        : from 202009 to 202006
+20170817 01:53:13AM,Downloads,ERROR   ,BUY       : GBP   201709: Buy 1 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,BUY       : JPY   201709: Buy 1 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 2 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 7 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,BUY       : ZT    201709: Buy 1 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,SELL      : ZF    201709: Sell 1 contracts
+20170817 01:53:13AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170817 07:59:45AM,Downloads,DEBUG   ,
+20170817 07:59:45AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : NG    : 201710: -1 : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : ZT    : 201709: 5  : Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : V2TX  : 201709: -11: Position is OK
+20170817 07:59:45AM,Downloads,INFO    ,OK        : ZW    : 201712: -1 : Position is OK
+20170817 07:59:45AM,Downloads,DEBUG   ,
+20170817 07:59:45AM,Downloads,ERROR   ,BUY       : AUD   201709: Buy 1 contracts
+20170817 07:59:45AM,Downloads,ERROR   ,ROLL      : GE        : from 202009 to 202006
+20170817 07:59:45AM,Downloads,ERROR   ,BUY       : GBP   201709: Buy 1 contracts
+20170817 07:59:45AM,Downloads,ERROR   ,BUY       : JPY   201709: Buy 1 contracts
+20170817 07:59:45AM,Downloads,ERROR   ,BUY       : FLKTB 201709: Buy 2 contracts
+20170817 07:59:45AM,Downloads,ERROR   ,BUY       : 3KTB  201709: Buy 6 contracts
+20170817 07:59:45AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170817 07:59:45AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20170920
+20170818 03:59:44AM,Downloads,DEBUG   ,
+20170818 03:59:44AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : GE    : 202009: 1  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : GBP   : 201709: -1 : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : FLKTB : 201709: -2 : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : 3KTB  : 201709: 4  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170818 03:59:44AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170818 03:59:44AM,Downloads,DEBUG   ,
+20170818 03:59:44AM,Downloads,ERROR   ,SELL      : NG    201710: Sell 1 contracts
+20170818 03:59:44AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170818 03:59:44AM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 1 contracts
+20170818 03:59:44AM,Downloads,ERROR   ,BUY       : ZB    201709: Buy 1 contracts
+20170818 03:59:44AM,Downloads,ERROR   ,ROLL      : V2TX      : from 201709 to 201710
+20170818 03:59:44AM,Downloads,ERROR   ,BUY       : V2TX  201710: Buy 1 contracts
+20170818 03:59:44AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20171018
+20170818 03:59:44AM,Downloads,ERROR   ,SELL      : ZW    201712: Sell 1 contracts
+20170818 04:44:27AM,Downloads,ERROR   ,Table data/AEX_price.csv not found
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 257, in read_sql_table
+    meta.reflect(only=[table_name], views=True)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/sql/schema.py", line 3840, in reflect
+    (bind.engine, s, ', '.join(missing)))
+sqlalchemy.exc.InvalidRequestError: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@0.0.0.0/pkdemo): (data/AEX_price.csv)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 251, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 123, in main
+    last_download_date(curr_markets_df, next_markets_df, legacy_path)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 61, in last_download_date
+    parse_dates=['DATETIME'])
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 259, in read_sql_table
+    raise ValueError("Table %s not found" % table_name)
+ValueError: Table data/AEX_price.csv not found
+20170818 04:47:59AM,Downloads,ERROR   ,Table aex_price.csv not found
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 257, in read_sql_table
+    meta.reflect(only=[table_name], views=True)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/sql/schema.py", line 3840, in reflect
+    (bind.engine, s, ', '.join(missing)))
+sqlalchemy.exc.InvalidRequestError: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@0.0.0.0/pkdemo): (aex_price.csv)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 251, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 123, in main
+    last_download_date(curr_markets_df, next_markets_df, legacy_path)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 61, in last_download_date
+    parse_dates=['DATETIME'])
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 259, in read_sql_table
+    raise ValueError("Table %s not found" % table_name)
+ValueError: Table aex_price.csv not found
+20170818 04:49:19AM,Downloads,DEBUG   ,
+20170818 04:49:19AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : GE    : 202009: 1  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : GBP   : 201709: -1 : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : FLKTB : 201709: -2 : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : 3KTB  : 201709: 4  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170818 04:49:19AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170818 04:49:19AM,Downloads,DEBUG   ,
+20170818 04:49:19AM,Downloads,ERROR   ,SELL      : NG    201710: Sell 1 contracts
+20170818 04:49:19AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170818 04:49:19AM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 1 contracts
+20170818 04:49:19AM,Downloads,ERROR   ,BUY       : ZB    201709: Buy 1 contracts
+20170818 04:49:19AM,Downloads,ERROR   ,ROLL      : V2TX      : from 201709 to 201710
+20170818 04:49:19AM,Downloads,ERROR   ,BUY       : V2TX  201710: Buy 1 contracts
+20170818 04:49:19AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20171018
+20170818 04:49:19AM,Downloads,ERROR   ,SELL      : ZW    201712: Sell 1 contracts
+20170818 05:11:24AM,Downloads,DEBUG   ,
+20170818 05:11:24AM,Downloads,INFO    ,OK        : GBM   : 201709: 2  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : BTP   : 201709: 1  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : GBL   : 201709: 1  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : HG    : 201709: 1  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : ZC    : 201712: -1 : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : GE    : 202009: 1  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : GBP   : 201709: -1 : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : FLKTB : 201709: -2 : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : 3KTB  : 201709: 4  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : HE    : 201806: 5  : Position is OK
+20170818 05:11:24AM,Downloads,INFO    ,OK        : MXP   : 201709: 6  : Position is OK
+20170818 05:11:24AM,Downloads,DEBUG   ,
+20170818 05:11:24AM,Downloads,ERROR   ,SELL      : NG    201710: Sell 1 contracts
+20170818 05:11:24AM,Downloads,ERROR   ,SELL      : PA    201709: Sell 1 contracts
+20170818 05:11:24AM,Downloads,ERROR   ,SELL      : ZT    201709: Sell 1 contracts
+20170818 05:11:24AM,Downloads,ERROR   ,BUY       : ZB    201709: Buy 1 contracts
+20170818 05:11:24AM,Downloads,ERROR   ,ROLL      : V2TX      : from 201709 to 201710
+20170818 05:11:24AM,Downloads,ERROR   ,BUY       : V2TX  201710: Buy 1 contracts
+20170818 05:11:24AM,Downloads,ERROR   ,ROLL      : VIX       : from 201709 to 20171018
+20170818 05:11:24AM,Downloads,ERROR   ,SELL      : ZW    201712: Sell 1 contracts
+20170818 05:39:51AM,Downloads,ERROR   ,'the label [CHFUSD] is not in the [index]'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [CHFUSD] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 251, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 123, in main
+    last_download_date(curr_markets_df, next_markets_df, legacy_path)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 71, in last_download_date
+    print(string, datetime.strptime((next_markets.loc[market]['DATEFROM']),'%Y-%m-%d' ))
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [CHFUSD] is not in the [index]'
+20170818 06:15:37AM,Downloads,ERROR   ,unorderable types: int() <= datetime.datetime()
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 258, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 104, in main
+    current_rolls = roll_df[roll_df.index <= datetime.now()].groupby(['CARVER']).last()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 3366, in _evaluate_compare
+    result = op(self.values, np.asarray(other))
+TypeError: unorderable types: int() <= datetime.datetime()
+20170818 06:16:59AM,Downloads,ERROR   ,type object 'datetime.datetime' has no attribute 'datetime'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 258, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 104, in main
+    current_rolls = roll_df[roll_df['DATETIME'] <= datetime.datetime.now()].groupby(['CARVER']).last()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+20170819 01:22:12AM,Downloads,ERROR   ,'the label [CHFUSD] is not in the [index]'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1411, in _has_valid_type
+    error()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [CHFUSD] is not in the [index]'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 248, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 120, in main
+    days_left = last_download_date(curr_markets_df, next_markets_df, legacy_path)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 72, in last_download_date
+    print(string, datetime.strptime((schedule.loc[market]['DATEFROM']),'%Y-%m-%d' ))
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1312, in __getitem__
+    return self._getitem_axis(key, axis=0)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1482, in _getitem_axis
+    self._has_valid_type(key, axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1419, in _has_valid_type
+    error()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1406, in error
+    (key, self.obj._get_axis_name(axis)))
+KeyError: 'the label [CHFUSD] is not in the [index]'
+20170819 05:00:53AM,Downloads,ERROR   ,'Pandas' object has no attribute 'PRICE'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 286, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 167, in main
+    days_to_roll_df = get_days_to_roll(curr_markets_df, scheduled_markets_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 117, in get_days_to_roll
+    if tuple.PRICE == tuple.PRICE:
+AttributeError: 'Pandas' object has no attribute 'PRICE'
+20170819 05:13:59AM,Downloads,ERROR   ,'DATEFROM'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2175, in get_value
+    return tslib.get_value_box(s, key)
+  File "pandas/tslib.pyx", line 946, in pandas.tslib.get_value_box (pandas/tslib.c:19053)
+  File "pandas/tslib.pyx", line 955, in pandas.tslib.get_value_box (pandas/tslib.c:18687)
+TypeError: 'str' object cannot be interpreted as an integer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 285, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 166, in main
+    days_to_roll_df = get_days_to_roll(curr_markets_df, scheduled_markets_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 130, in get_days_to_roll
+    print(string, datetime.strptime((scheduled_df.loc[market]['DATEFROM']),'%Y-%m-%d' ))
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 603, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2183, in get_value
+    raise e1
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2169, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 98, in pandas.index.IndexEngine.get_value (pandas/index.c:3557)
+  File "pandas/index.pyx", line 106, in pandas.index.IndexEngine.get_value (pandas/index.c:3240)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'DATEFROM'
+20170819 05:40:48AM,Downloads,ERROR   ,'Series' object has no attribute 'date'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 287, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 164, in main
+    (curr_markets_df, scheduled_markets_df) = get_curr_next_contracts()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 77, in get_curr_next_contracts
+    next_rolls['DAYSTOROLL'] = (next_rolls['DATETIME'].date() - date.today()).days
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2744, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'date'
+20170819 05:52:17AM,Downloads,ERROR   ,'Series' object has no attribute 'date'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 287, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 164, in main
+    (curr_markets_df, scheduled_markets_df) = get_curr_next_contracts()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 77, in get_curr_next_contracts
+    next_rolls['DAYSTOROLL'] = next_rolls['DATETIME'].date() - date.today()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2744, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'date'
+20170819 05:54:31AM,Downloads,ERROR   ,'Series' object has no attribute 'date'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 287, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 164, in main
+    (curr_markets_df, scheduled_markets_df) = get_curr_next_contracts()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 77, in get_curr_next_contracts
+    next_rolls['DAYSTOROLL'] = next_rolls['DATETIME'].date() - date.today()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2744, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'date'
+20170819 05:56:41AM,Downloads,ERROR   ,'Series' object has no attribute 'days'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 287, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 164, in main
+    (curr_markets_df, scheduled_markets_df) = get_curr_next_contracts()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 77, in get_curr_next_contracts
+    next_rolls['DAYSTOROLL'] = (next_rolls['DATETIME'] - date.today()).days
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2744, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'days'
+20170820 04:42:54AM,Downloads,ERROR   ,name 'np' is not defined
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 283, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 170, in main
+    portfolio_positions_df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 63, in get_broker_positions
+    port_df1['EXPIRY'].replace('', np.nan, inplace=True)
+NameError: name 'np' is not defined
+20170820 06:23:24AM,Downloads,ERROR   ,'numpy.int64' object has no attribute 'lower'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 290, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 173, in main
+    latest_loads_df = get_latest_donwloads(contracts_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 101, in get_latest_donwloads
+    last_dl_date = data.get_instrument_raw_carry_data(row.Index).iloc[-1:].index[0]
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/mysqldata.py", line 186, in get_instrument_raw_carry_data
+    tablename = instrument_code.lower() + "_carrydata"
+AttributeError: 'numpy.int64' object has no attribute 'lower'
+20170820 06:25:34AM,Downloads,ERROR   ,'numpy.int64' object has no attribute 'lower'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 290, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 173, in main
+    latest_loads_df = get_latest_donwloads(contracts_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 101, in get_latest_donwloads
+    last_dl_date = data.get_instrument_raw_carry_data(row.Index).iloc[-1:].index[0]
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/mysqldata.py", line 186, in get_instrument_raw_carry_data
+    tablename = instrument_code.lower() + "_carrydata"
+AttributeError: 'numpy.int64' object has no attribute 'lower'
+20170822 02:53:03AM,Downloads,ERROR   ,'POSITION'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2134, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'POSITION'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 193, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 181, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 65, in get_broker_positions
+    portfolio_positions = portfolio_positions[portfolio_positions['POSITION'] != 0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2059, in __getitem__
+    return self._getitem_column(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2066, in _getitem_column
+    return self._get_item_cache(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1386, in _get_item_cache
+    values = self._data.get(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3543, in get
+    loc = self.items.get_loc(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2136, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'POSITION'
+20170822 02:54:12AM,Downloads,ERROR   ,'POSITION'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2134, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'POSITION'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 193, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 181, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 65, in get_broker_positions
+    portfolio_positions = portfolio_positions[portfolio_positions['POSITION'] != 0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2059, in __getitem__
+    return self._getitem_column(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2066, in _getitem_column
+    return self._get_item_cache(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1386, in _get_item_cache
+    values = self._data.get(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3543, in get
+    loc = self.items.get_loc(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2136, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'POSITION'
+20170822 03:22:57AM,Downloads,ERROR   ,indices are out-of-bounds
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 194, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 182, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 60, in get_broker_positions
+    port_df1 = port_df1.ix[:,[0,1,2,3,6,9]]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 84, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 816, in _getitem_tuple
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1014, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1059, in _getitem_iterable
+    return self.obj.take(indexer, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1669, in take
+    convert=True, verify=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3955, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1873, in maybe_convert_indices
+    raise IndexError("indices are out-of-bounds")
+IndexError: indices are out-of-bounds
+20170822 03:24:01AM,Downloads,ERROR   ,indices are out-of-bounds
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 194, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 182, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 60, in get_broker_positions
+    port_df1 = port_df1.ix[:,[0,1,2,3,6,9]]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 84, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 816, in _getitem_tuple
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1014, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1059, in _getitem_iterable
+    return self.obj.take(indexer, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1669, in take
+    convert=True, verify=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3955, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1873, in maybe_convert_indices
+    raise IndexError("indices are out-of-bounds")
+IndexError: indices are out-of-bounds
+20170822 03:37:15AM,Downloads,ERROR   ,index 0 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 195, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 183, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 70, in get_broker_positions
+    carver_value = market_data_df[market_data_df['IB'] == row.Index].index.values[0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+20170822 03:44:36AM,Downloads,ERROR   ,list indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 196, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 184, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 68, in get_broker_positions
+    portfolio_positions.index.names['IB']
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/base.py", line 719, in __getitem__
+    return super(FrozenList, self).__getitem__(n)
+TypeError: list indices must be integers or slices, not str
+20170822 04:01:04AM,Downloads,ERROR   ,indices are out-of-bounds
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 195, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 183, in main
+    df = get_broker_positions(client)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 60, in get_broker_positions
+    port_df1 = port_df1.ix[:,[0,1,2,3,6,8]]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 84, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 816, in _getitem_tuple
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1014, in _getitem_axis
+    return self._getitem_iterable(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1059, in _getitem_iterable
+    return self.obj.take(indexer, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1669, in take
+    convert=True, verify=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3955, in take
+    indexer = maybe_convert_indices(indexer, n)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1873, in maybe_convert_indices
+    raise IndexError("indices are out-of-bounds")
+IndexError: indices are out-of-bounds
+20170823 01:10:21AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 196, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 182, in main
+    with_broker_positions_df = get_broker_positions(client, with_system_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 58, in get_broker_positions
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170823 03:09:17AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 212, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 196, in main
+    with_broker_positions_df = get_broker_positions(client, with_system_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 58, in get_broker_positions
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable
+20170823 03:26:29AM,Downloads,ERROR   ,'PRICE'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2134, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'PRICE'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 212, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 201, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 156, in generate_reports
+    pretty_print(display[pd.notnull(display['PRICE']) and display['SYSTEM_POSITION']!= 0], "STATUS")
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2059, in __getitem__
+    return self._getitem_column(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2066, in _getitem_column
+    return self._get_item_cache(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1386, in _get_item_cache
+    values = self._data.get(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3543, in get
+    loc = self.items.get_loc(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2136, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'PRICE'
+20170823 03:42:55AM,Downloads,ERROR   ,The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 212, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 201, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 156, in generate_reports
+    pretty_print(display[pd.notnull(display['BROKER_POSITION']) and display['SYSTEM_POSITION']!= 0], "STATUS")
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 917, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+20170823 03:50:17AM,Downloads,ERROR   ,The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 212, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 201, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 156, in generate_reports
+    pretty_print(display[pd.notnull(display['BROKER_POSITION']) and display['SYSTEM_POSITION']!= 0], "STATUS")
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 917, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+20170823 04:04:44AM,Downloads,ERROR   ,cannot convert the series to <class 'int'>
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 219, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 208, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 156, in generate_reports
+    display['BROKER_POSITION'] = int(display['BROKER_POSITION'])
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 93, in wrapper
+    "{0}".format(str(converter)))
+TypeError: cannot convert the series to <class 'int'>
+20170823 04:06:43AM,Downloads,ERROR   ,can't set attribute
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 221, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 210, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 162, in generate_reports
+    row.BROKER_POSITION = int(row.BROKER_POSITION)
+AttributeError: can't set attribute
+20170823 05:00:54PM,Downloads,ERROR   ,Unalignable boolean Series key provided
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 236, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 225, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 176, in generate_reports
+    display.loc[mask, column_name] = 'Buy ' + display.correction
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in __setitem__
+    indexer = self._get_setitem_indexer(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 122, in _get_setitem_indexer
+    return self._convert_tuple(key, is_setter=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 184, in _convert_tuple
+    idx = self._convert_to_indexer(k, axis=i, is_setter=is_setter)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1186, in _convert_to_indexer
+    obj = check_bool_indexer(labels, obj)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1817, in check_bool_indexer
+    raise IndexingError('Unalignable boolean Series key provided')
+pandas.core.indexing.IndexingError: Unalignable boolean Series key provided
+20170823 06:31:14PM,Downloads,ERROR   ,'DataFrame' object has no attribute 'CORRECTION'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 244, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 233, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 168, in generate_reports
+    display.CORRECTION = display.CORRECTION.astype(int)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2744, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'CORRECTION'
+20170823 06:34:49PM,Downloads,ERROR   ,'DataFrame' object has no attribute 'correction'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 244, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 233, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 173, in generate_reports
+    display.correction = display.correction.astype(str)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2744, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'correction'
+20170824 12:20:16PM,Downloads,ERROR   ,unsupported operand type(s) for -: 'str' and 'str'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 652, in na_op
+    raise_on_error=True, **eval_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/computation/expressions.py", line 210, in evaluate
+    **eval_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/computation/expressions.py", line 63, in _evaluate_standard
+    return op(a, b)
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 676, in safe_na_op
+    return na_op(lvalues, rvalues)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 658, in na_op
+    result[mask] = op(x[mask], _values_from_object(y[mask]))
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 235, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 224, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 179, in generate_reports
+    display.Roll = display.Expiry - display.Maturity
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 715, in wrapper
+    result = wrap_results(safe_na_op(lvalues, rvalues))
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 686, in safe_na_op
+    lambda x: op(x, rvalues))
+  File "pandas/src/algos_common_helper.pxi", line 1176, in pandas.algos.arrmap_object (pandas/algos.c:46681)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 686, in <lambda>
+    lambda x: op(x, rvalues))
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+20170824 12:21:43PM,Downloads,ERROR   ,cannot convert the series to <class 'int'>
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 235, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 224, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 179, in generate_reports
+    display.Roll = int(display.Expiry) - int(display.Maturity)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 93, in wrapper
+    "{0}".format(str(converter)))
+TypeError: cannot convert the series to <class 'int'>
+20170824 12:24:39PM,Downloads,ERROR   ,"['Roll'] not in index"
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 235, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 224, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 180, in generate_reports
+    display = display[['IB','LastDownload', 'Expiry', 'Roll','Maturity',  'Position','Broker', 'Action']]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2053, in __getitem__
+    return self._getitem_array(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2097, in _getitem_array
+    indexer = self.ix._convert_to_indexer(key, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1230, in _convert_to_indexer
+    raise KeyError('%s not in index' % objarr[mask])
+KeyError: "['Roll'] not in index"
+20170824 12:41:58PM,Downloads,ERROR   ,"['Roll'] not in index"
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 235, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 224, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 180, in generate_reports
+    display = display[['IB','LastDownload', 'Expiry', 'Roll','Maturity',  'Position','Broker', 'Action']]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2053, in __getitem__
+    return self._getitem_array(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2097, in _getitem_array
+    indexer = self.ix._convert_to_indexer(key, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1230, in _convert_to_indexer
+    raise KeyError('%s not in index' % objarr[mask])
+KeyError: "['Roll'] not in index"
+20170824 02:07:05PM,Downloads,ERROR   ,tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 249, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 238, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 189, in generate_reports
+    display['Roll'] = display.apply(check_roll(row), axis=1)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 147, in check_roll
+    if row['Maturity'].astype(int) > row['Expiry'].astype(int):
+TypeError: tuple indices must be integers or slices, not str
+20170824 02:22:58PM,Downloads,ERROR   ,("'str' object has no attribute 'astype'", 'occurred at index BOBL')
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 248, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 237, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 188, in generate_reports
+    display['Roll'] = display.apply(check_roll, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 147, in check_roll
+    if row['Maturity'].astype(int) > row['Expiry'].astype(int):
+AttributeError: ("'str' object has no attribute 'astype'", 'occurred at index BOBL')
+20170824 02:32:26PM,Downloads,ERROR   ,('Maturity', 'occurred at index BOBL')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2175, in get_value
+    return tslib.get_value_box(s, key)
+  File "pandas/tslib.pyx", line 946, in pandas.tslib.get_value_box (pandas/tslib.c:19053)
+  File "pandas/tslib.pyx", line 955, in pandas.tslib.get_value_box (pandas/tslib.c:18687)
+TypeError: 'str' object cannot be interpreted as an integer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 244, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 233, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 188, in generate_reports
+    display['Roll'] = display.apply(check_roll, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 147, in check_roll
+    if row['Maturity'][:6] > row['Expiry'][:6]:
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 603, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2183, in get_value
+    raise e1
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2169, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 98, in pandas.index.IndexEngine.get_value (pandas/index.c:3557)
+  File "pandas/index.pyx", line 106, in pandas.index.IndexEngine.get_value (pandas/index.c:3240)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: ('Maturity', 'occurred at index BOBL')
+20170824 03:14:14PM,Downloads,ERROR   ,("'str' object has no attribute 'astype'", 'occurred at index 11')
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 253, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 237, in main
+    with_broker_positions_df = get_broker_positions(client, with_system_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 73, in get_broker_positions
+    portfolio_positions['EXPIRY'] = portfolio_positions.apply(mat_from_expiry, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 57, in mat_from_expiry
+    row['EXPIRY'] = (row['EXPIRY'].astype(int)) + 1
+AttributeError: ("'str' object has no attribute 'astype'", 'occurred at index 11')
+20170824 08:37:54PM,Downloads,ERROR   ,('Expiry', 'occurred at index BOBL')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2175, in get_value
+    return tslib.get_value_box(s, key)
+  File "pandas/tslib.pyx", line 946, in pandas.tslib.get_value_box (pandas/tslib.c:19053)
+  File "pandas/tslib.pyx", line 955, in pandas.tslib.get_value_box (pandas/tslib.c:18687)
+TypeError: 'str' object cannot be interpreted as an integer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 253, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 242, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 197, in generate_reports
+    display['Roll'] = display.apply(check_roll, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 156, in check_roll
+    if row['Sys_mat'][:6] > row['Expiry'][:6]:
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 603, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2183, in get_value
+    raise e1
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2169, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 98, in pandas.index.IndexEngine.get_value (pandas/index.c:3557)
+  File "pandas/index.pyx", line 106, in pandas.index.IndexEngine.get_value (pandas/index.c:3240)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: ('Expiry', 'occurred at index BOBL')
+20170827 11:56:12PM,Downloads,ERROR   ,Cannot convert NA to integer
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 253, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 242, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 184, in generate_reports
+    display.BROKER_POSITION = display.BROKER_POSITION.astype(int)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 3054, in astype
+    raise_on_error=raise_on_error, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3189, in astype
+    return self.apply('astype', dtype=dtype, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3056, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 461, in astype
+    values=values, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 504, in _astype
+    values = _astype_nansafe(values.ravel(), dtype, copy=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/types/cast.py", line 531, in _astype_nansafe
+    raise ValueError('Cannot convert NA to integer')
+ValueError: Cannot convert NA to integer
+20170828 01:08:44AM,Downloads,ERROR   ,'CARVER'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2134, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'CARVER'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 254, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 243, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 184, in generate_reports
+    display.set_index(['CARVER'],inplace=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2917, in set_index
+    level = frame[col]._values
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2059, in __getitem__
+    return self._getitem_column(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 2066, in _getitem_column
+    return self._get_item_cache(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 1386, in _get_item_cache
+    values = self._data.get(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3543, in get
+    loc = self.items.get_loc(item)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2136, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/index.pyx", line 132, in pandas.index.IndexEngine.get_loc (pandas/index.c:4433)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 732, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13742)
+  File "pandas/src/hashtable_class_helper.pxi", line 740, in pandas.hashtable.PyObjectHashTable.get_item (pandas/hashtable.c:13696)
+KeyError: 'CARVER'
+20170828 01:56:00AM,Downloads,ERROR   ,Cannot convert NA to integer
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 254, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 243, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 185, in generate_reports
+    display.BROKER_POSITION = display.BROKER_POSITION.astype(int)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 3054, in astype
+    raise_on_error=raise_on_error, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3189, in astype
+    return self.apply('astype', dtype=dtype, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 3056, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 461, in astype
+    values=values, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/internals.py", line 504, in _astype
+    values = _astype_nansafe(values.ravel(), dtype, copy=True)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/types/cast.py", line 531, in _astype_nansafe
+    raise ValueError('Cannot convert NA to integer')
+ValueError: Cannot convert NA to integer
+20170828 02:27:37AM,Downloads,ERROR   ,'float' object has no attribute 'astype'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 257, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 246, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 185, in generate_reports
+    display.BROKER_POSITION = display.BROKER_POSITION.apply(lambda x: x.astype(int) if x != x  else 0)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 2294, in apply
+    mapped = lib.map_infer(values, f, convert=convert_dtype)
+  File "pandas/src/inference.pyx", line 1207, in pandas.lib.map_infer (pandas/lib.c:66124)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 185, in <lambda>
+    display.BROKER_POSITION = display.BROKER_POSITION.apply(lambda x: x.astype(int) if x != x  else 0)
+AttributeError: 'float' object has no attribute 'astype'
+20170828 02:31:42AM,Downloads,ERROR   ,("'float' object is not subscriptable", 'occurred at index AUD')
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 257, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 246, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 201, in generate_reports
+    display['Roll'] = display.apply(check_roll, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 157, in check_roll
+    if row['Sys_mat'][:6] > row['IB_mat'][:6]:
+TypeError: ("'float' object is not subscriptable", 'occurred at index AUD')
+20170901 03:09:44PM,Downloads,ERROR   ,(pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '0.0.0.0' ([Errno 111] Connection refused)")
+Traceback (most recent call last):
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 1122, in _do_get
+    return self._pool.get(wait, self._timeout)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/queue.py", line 145, in get
+    raise Empty
+sqlalchemy.util.queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/connections.py", line 916, in connect
+    **kwargs)
+  File "/usr/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/usr/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 328, in unique_connection
+    return _ConnectionFairy._checkout(self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/compat.py", line 187, in reraise
+    raise value
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '0.0.0.0' ([Errno 111] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 260, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 235, in main
+    contracts_df = get_curr_next_contracts()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 92, in get_curr_next_contracts
+    market_data = get_market_data()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 51, in get_market_data
+    market_data_df = pd.read_sql_table(table_name='marketdata', con=engine, index_col=['CARVER'])
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 257, in read_sql_table
+    meta.reflect(only=[table_name], views=True)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/sql/schema.py", line 3791, in reflect
+    with bind.connect() as conn:
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 2091, in connect
+    return self._connection_cls(self, **kwargs)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 90, in __init__
+    if connection is not None else engine.raw_connection()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 2177, in raw_connection
+    self.pool.unique_connection, _connection)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 2151, in _wrap_pool_connect
+    e, dialect, self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 1465, in _handle_dbapi_exception_noconnection
+    exc_info
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/compat.py", line 203, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/compat.py", line 186, in reraise
+    raise value.with_traceback(tb)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/base.py", line 2147, in _wrap_pool_connect
+    return fn()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 328, in unique_connection
+    return _ConnectionFairy._checkout(self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 766, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 516, in checkout
+    rec = pool._do_get()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 1138, in _do_get
+    self._dec_overflow()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/langhelpers.py", line 66, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/util/compat.py", line 187, in reraise
+    raise value
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 1135, in _do_get
+    return self._create_connection()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 333, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 461, in __init__
+    self.__connect(first_connect_check=True)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/pool.py", line 651, in __connect
+    connection = pool._invoke_creator(self)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/strategies.py", line 105, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/default.py", line 393, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/__init__.py", line 90, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/connections.py", line 706, in __init__
+    self.connect()
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/pymysql/connections.py", line 963, in connect
+    raise exc
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on '0.0.0.0' ([Errno 111] Connection refused)")
+20170911 12:29:56AM,Downloads,ERROR   ,0
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 259, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 243, in main
+    with_broker_positions_df = get_broker_positions(client, with_system_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 89, in get_broker_positions
+    price_contract = df[df.CARVER == row.CARVER]['PRICE_CONTRACT_current'][0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 603, in __getitem__
+    result = self.index.get_value(self, key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2169, in get_value
+    tz=getattr(series.dtype, 'tz', None))
+  File "pandas/index.pyx", line 98, in pandas.index.IndexEngine.get_value (pandas/index.c:3557)
+  File "pandas/index.pyx", line 106, in pandas.index.IndexEngine.get_value (pandas/index.c:3240)
+  File "pandas/index.pyx", line 154, in pandas.index.IndexEngine.get_loc (pandas/index.c:4279)
+  File "pandas/src/hashtable_class_helper.pxi", line 404, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:8564)
+  File "pandas/src/hashtable_class_helper.pxi", line 410, in pandas.hashtable.Int64HashTable.get_item (pandas/hashtable.c:8508)
+KeyError: 0
+20170912 01:29:08PM,Downloads,ERROR   ,The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 261, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 250, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 206, in generate_reports
+    display = display[not (display['Broker'] == 0) & (display['Target'] == 0)]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 917, in __nonzero__
+    .format(self.__class__.__name__))
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+20170929 10:10:15AM,Downloads,ERROR   ,("'float' object has no attribute 'astype'", 'occurred at index AEX')
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 262, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 251, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 205, in generate_reports
+    display['Roll'] = display.apply(check_roll, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 161, in check_roll
+    return row['DaysToRoll'].astype(int)
+AttributeError: ("'float' object has no attribute 'astype'", 'occurred at index AEX')
+20170929 10:11:19AM,Downloads,ERROR   ,('cannot convert float NaN to integer', 'occurred at index PLAT')
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 262, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 251, in main
+    generate_reports(with_broker_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 205, in generate_reports
+    display['Roll'] = display.apply(check_roll, axis=1)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4152, in apply
+    return self._apply_standard(f, axis, reduce=reduce)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/frame.py", line 4248, in _apply_standard
+    results[i] = func(v)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 161, in check_roll
+    return int(row['DaysToRoll'])
+ValueError: ('cannot convert float NaN to integer', 'occurred at index PLAT')
+20171012 12:54:34AM,Downloads,ERROR   ,'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 264, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 248, in main
+    with_broker_positions_df = get_broker_positions(client, with_system_positions_df)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod8_re.py", line 66, in get_broker_positions
+    (account_value, portfolio_data) = client.get_IB_account_data()
+TypeError: 'NoneType' object is not iterable

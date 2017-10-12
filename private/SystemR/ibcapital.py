@@ -1,29 +1,8 @@
 import time, os, sys
+import sqlalchemy
+engine = sqlalchemy.create_engine('mysql+pymysql://root:admin@0.0.0.0/pkdemo')
 
-def set_logging():
-    import logging
-    logger = logging.getLogger('Downloads')
-    logger.setLevel(logging.DEBUG)
 
-    # create file handler which logs even DEBUG messages
-    file_handler = logging.FileHandler('../SystemR/admin/info.log')
-    file_handler.setLevel(logging.DEBUG)
-
-    # create a console handler to show errors
-    console_handler = logging.StreamHandler()
-    console_handler.setLevel(logging.DEBUG)
-
-    # Create formatter and add it to handlers
-    # formatter = logging.Formatter('%(message)s')
-    console_formatter = logging.Formatter('{asctime} {name} {levelname:8s} {message}', datefmt='%Y%m%d %I:%M:%S%p',  style='{')
-    file_formatter = logging.Formatter('{asctime},{name},{levelname:8s},{message}', datefmt='%Y%m%d %I:%M:%S%p',style='{')
-    file_handler.setFormatter(file_formatter)
-    console_handler.setFormatter(console_formatter)
-
-    # Add handlers to logger
-    logger.addHandler(file_handler)
-    logger.addHandler(console_handler)
-    return logger
 def get_capital_offset():
 
     offset = 0
@@ -51,33 +30,8 @@ def   main():
     import pandas as pd
     import numpy as np
     from matplotlib.pyplot import show, legend, matshow
-    '''
-    print("sys.executable: ", sys.executable)
-    print("os.get_cwd(): ", os.getcwd())
-    print("sys.version: ", sys.version)
-    print("sys.path")
-    print(sys.path)
-    print("--------------------------")
-    print(os.path.join(os.path.dirname(__file__), '..'))
-    print("--------------------------")
-    '''
-    try:
-        user_paths = os.environ['PYTHONPATH'].split(os.pathsep)
-    except KeyError:
-        user_paths = []
-    print(user_paths)
 
-    print("--------------------------")
 
-    today = time.strftime("%Y%m%d")
-    dir_filename = "../SystemR/admin/directories.csv"
-    # point to output files
-    dir_df = pd.read_csv(dir_filename, index_col=['DIRECTION'], dtype={'PATH': str})
-    admin_path = dir_df.loc['ADMIN'][0]
-    positions_file = admin_path + 'positions_test/system.csv'
-    history_file = admin_path + 'positions_test/history/' + today + "system.csv"
-    capital_file = admin_path + 'capital/capital.csv'
-    print("In main....")
 
 
     # **** Get capital from IB ****
@@ -118,12 +72,13 @@ def   main():
     print(cap_df)
     types = [type(t) for t in cap_df.index.values]
     cap_df.to_csv(capital_file)
+    cap_df.to_sql('capital', con=engine, if_exists='replace', index=False)
+
 
     # Save the file to disk
 
 if __name__ == "__main__":
 
-    logger = set_logging()
     try:
         main()
     except Exception as e:

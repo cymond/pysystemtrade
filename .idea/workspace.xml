@@ -1,344 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/private/SystemR/test_prod.py" line="168" />
+    <bookmark url="file://$PROJECT_DIR$/private/SystemR/prod8_re.py" line="203" />
+    <bookmark url="file://$PROJECT_DIR$/private/SystemR/dbutils/ibwrapper.py" line="496" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="57b39e03-58e1-47d0-8d6e-b3d70d77724a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/private/SystemR/admin/marketdata_real.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/capital_test.ipynb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/monthly.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/old_prod6.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/dbutils/capital.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/dbutils/ibwrapper.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/get_accounting_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/get_market_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/get_market_prices.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/prod1_net_capital.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/prod_capital_native.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/private/SystemR/test_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reporting_on_pickle.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/private/SystemR/admin/positions/.~lock.current.csv#" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pysystemtrade.iml" afterPath="$PROJECT_DIR$/.idea/pysystemtrade.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AEX/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AEX/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AEX/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AEX/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AEX/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AEX/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AUD/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AUD/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AUD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AUD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AUD/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/AUD/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BOBL/201612.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BOBL/201612.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BOBL/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BOBL/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BOBL/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BOBL/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201612.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201612.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BTP/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BUND/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BUND/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BUND/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BUND/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BUND/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/BUND/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201611.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201611.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201701.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201701.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CAC/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CHFUSD/CHFUSD.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CHFUSD/CHFUSD.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201707.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/COPPER/201707.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201712.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201712.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201809.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201809.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201812.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CORN/201812.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201711.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201711.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201712.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201712.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201811.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201811.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201812.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/CRUDE_W/201812.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/201906.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/201906.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/201909.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/201909.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/201912.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/201912.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/202003.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/202003.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/202006.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EDOLLAR/202006.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUR/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUR/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUR/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUR/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUR/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUR/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUROSTX/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUROSTX/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUROSTX/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUROSTX/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUROSTX/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EUROSTX/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EURUSD/EURUSD.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/EURUSD/EURUSD.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GAS_US/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GAS_US/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GAS_US/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GAS_US/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GAS_US/201708.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GAS_US/201708.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBP/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBP/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBP/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBP/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBP/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBP/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBPUSD/GBPUSD.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GBPUSD/GBPUSD.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201708.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201708.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201710.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201710.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/JPY/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/JPY/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/JPY/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/JPY/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/JPY/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/JPY/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KOSPI/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KOSPI/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KOSPI/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KOSPI/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KOSPI/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KOSPI/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR10/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR10/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR10/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR10/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR3/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR3/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR3/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR3/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KRWUSD/KRWUSD.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KRWUSD/KRWUSD.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201707.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201707.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201806.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201806.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201807.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LEANHOG/201807.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LIVECOW/201708.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LIVECOW/201708.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LIVECOW/201710.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LIVECOW/201710.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LIVECOW/201808.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/LIVECOW/201808.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/MXP/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/MXP/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/MXP/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/MXP/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/MXP/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/MXP/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NASDAQ/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NASDAQ/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NASDAQ/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NASDAQ/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NASDAQ/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NASDAQ/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NZD/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NZD/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NZD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NZD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NZD/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/NZD/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/OAT/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/OAT/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/OAT/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/OAT/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/OAT/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/OAT/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PALLAD/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PALLAD/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PALLAD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PALLAD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PALLAD/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PALLAD/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PLAT/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PLAT/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PLAT/201707.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PLAT/201707.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PLAT/201710.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/PLAT/201710.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SMI/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SMI/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SMI/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SMI/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SMI/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SMI/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201711.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201711.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201809.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201809.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201811.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SOYBEAN/201811.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SP500/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SP500/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SP500/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SP500/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SP500/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/SP500/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US10/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US10/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US10/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US10/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US10/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US10/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US2/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US2/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US2/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US2/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US20/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US20/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US20/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US20/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US5/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US5/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US5/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US5/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US5/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/US5/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201712.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201712.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201809.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201809.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201812.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201812.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AEX/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AEX/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AEX/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AEX/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AEX/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AEX/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AUD/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AUD/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AUD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AUD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AUD/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/AUD/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BOBL/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BOBL/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BOBL/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BOBL/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BOBL/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BOBL/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BTP/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BTP/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BTP/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BTP/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BTP/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BTP/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BUND/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BUND/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BUND/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BUND/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BUND/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/BUND/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CAC/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CAC/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CAC/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CAC/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CAC/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CAC/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201707.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/COPPER/201707.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201712.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201712.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201809.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201809.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201812.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CORN/201812.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201711.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201711.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201712.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201712.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201811.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201811.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201812.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/CRUDE_W/201812.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/201906.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/201906.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/201909.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/201909.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/201912.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/201912.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/202003.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/202003.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/202006.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EDOLLAR/202006.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUR/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUR/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUR/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUR/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUR/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUR/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUROSTX/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUROSTX/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUROSTX/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUROSTX/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUROSTX/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/EUROSTX/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GAS_US/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GAS_US/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GAS_US/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GAS_US/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GAS_US/201708.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GAS_US/201708.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GBP/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GBP/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GBP/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GBP/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GBP/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GBP/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201708.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201708.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201710.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201710.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/JPY/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/JPY/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/JPY/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/JPY/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/JPY/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/JPY/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KOSPI/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KOSPI/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KOSPI/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KOSPI/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KOSPI/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KOSPI/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR3/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR3/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR3/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR3/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201707.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201707.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201806.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201806.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201807.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LEANHOG/201807.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LIVECOW/201708.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LIVECOW/201708.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LIVECOW/201710.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/LIVECOW/201710.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NASDAQ/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NASDAQ/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NASDAQ/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NASDAQ/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NASDAQ/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NASDAQ/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NZD/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NZD/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NZD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NZD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NZD/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/NZD/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/OAT/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/OAT/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/OAT/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/OAT/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/OAT/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/OAT/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PALLAD/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PALLAD/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PALLAD/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PALLAD/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PALLAD/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PALLAD/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PLAT/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PLAT/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PLAT/201707.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PLAT/201707.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PLAT/201710.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/PLAT/201710.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SMI/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SMI/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SMI/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SMI/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SMI/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SMI/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201711.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201711.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201809.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201809.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201811.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SOYBEAN/201811.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SP500/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SP500/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SP500/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SP500/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SP500/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/SP500/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US10/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US10/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US10/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US10/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US10/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US10/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US2/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US2/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US2/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US2/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US2/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US2/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US20/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US20/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US20/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US20/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US20/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US20/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US5/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US5/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US5/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US5/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US5/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/US5/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/V2X/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/V2X/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/V2X/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/V2X/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/V2X/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/V2X/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201703.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201703.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201704.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201704.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201705.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201705.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201706.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201706.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201709.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201709.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201712.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201712.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201809.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201809.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201812.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201812.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/info.log" afterPath="$PROJECT_DIR$/private/SystemR/admin/info.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/logs/download.log" afterPath="$PROJECT_DIR$/private/SystemR/admin/logs/download.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/logs/reconciler.log" afterPath="$PROJECT_DIR$/private/SystemR/admin/logs/reconciler.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/logs/stitching.log" afterPath="$PROJECT_DIR$/private/SystemR/admin/logs/stitching.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/logs/update.log" afterPath="$PROJECT_DIR$/private/SystemR/admin/logs/update.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/marketdata.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/marketdata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/positions/system.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/positions/system.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/AEX_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/AEX_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/AEX_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/AEX_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/AUD_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/AUD_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/AUD_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/AUD_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/BOBL_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/BOBL_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/BOBL_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/BOBL_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/BTP_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/BTP_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/BTP_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/BTP_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/BUND_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/BUND_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/BUND_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/BUND_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CAC_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CAC_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CAC_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CAC_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CHFUSDfx.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CHFUSDfx.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/COPPER_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/COPPER_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/COPPER_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/COPPER_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CORN_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CORN_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CORN_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CORN_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CRUDE_W_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CRUDE_W_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/CRUDE_W_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/CRUDE_W_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EDOLLAR_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EDOLLAR_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EDOLLAR_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EDOLLAR_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EUROSTX_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EUROSTX_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EUROSTX_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EUROSTX_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EURUSDfx.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EURUSDfx.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EUR_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EUR_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/EUR_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/EUR_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GAS_US_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GAS_US_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GAS_US_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GAS_US_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GBPUSDfx.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GBPUSDfx.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GBP_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GBP_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GBP_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GBP_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GOLD_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GOLD_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/GOLD_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/GOLD_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/JPY_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/JPY_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/JPY_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/JPY_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KOSPI_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KOSPI_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KOSPI_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KOSPI_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KR10_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KR10_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KR10_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KR10_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KR3_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KR3_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KR3_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KR3_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/KRWUSDfx.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/KRWUSDfx.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/LEANHOG_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/LEANHOG_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/LEANHOG_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/LEANHOG_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/LIVECOW_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/LIVECOW_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/LIVECOW_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/LIVECOW_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/MXP_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/MXP_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/MXP_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/MXP_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/NASDAQ_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/NASDAQ_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/NASDAQ_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/NASDAQ_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/NZD_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/NZD_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/NZD_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/NZD_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/OAT_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/OAT_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/OAT_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/OAT_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/PALLAD_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/PALLAD_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/PALLAD_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/PALLAD_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/PLAT_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/PLAT_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/PLAT_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/PLAT_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/SMI_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/SMI_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/SMI_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/SMI_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/SOYBEAN_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/SOYBEAN_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/SOYBEAN_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/SOYBEAN_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/SP500_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/SP500_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/SP500_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/SP500_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US10_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US10_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US10_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US10_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US20_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US20_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US20_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US20_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US2_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US2_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US2_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US2_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US5_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US5_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/US5_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/US5_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/V2X_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/V2X_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/V2X_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/V2X_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/VIX_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/VIX_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/VIX_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/VIX_price.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/WHEAT_carrydata.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/WHEAT_carrydata.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/data/WHEAT_price.csv" afterPath="$PROJECT_DIR$/private/SystemR/data/WHEAT_price.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/admin/positions/current.csv" afterPath="$PROJECT_DIR$/private/SystemR/admin/positions/current.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/dbutils/panama.py" afterPath="$PROJECT_DIR$/private/SystemR/dbutils/panama.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/ibcapital.py" afterPath="$PROJECT_DIR$/private/SystemR/ibcapital.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/prod2_dl.py" afterPath="$PROJECT_DIR$/private/SystemR/prod2_dl.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/prod6_go.py" afterPath="$PROJECT_DIR$/private/SystemR/prod6_go.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/prod8_re.py" afterPath="$PROJECT_DIR$/private/SystemR/prod8_re.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/test_data_sql_objects.ipynb" afterPath="$PROJECT_DIR$/private/SystemR/test_data_sql_objects.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/test_unpick.py" afterPath="$PROJECT_DIR$/private/SystemR/test_unpick.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/testupdate.py" afterPath="$PROJECT_DIR$/private/SystemR/testupdate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/private/SystemR/wrapper_v5.py" afterPath="$PROJECT_DIR$/private/SystemR/wrapper_v5.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -347,7 +41,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -357,52 +50,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="capital.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv">
+      <file leaf-file-name="prod8_re.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/private/SystemR/prod8_re.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="15" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="15">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data_objects.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/SystemR/test_data_objects.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data_sql_objects.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/SystemR/test_data_sql_objects.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testupdate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/SystemR/testupdate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panama.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5610">
+              <caret line="376" column="42" lean-forward="false" selection-start-line="376" selection-start-column="41" selection-end-line="376" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trades.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/SystemR/admin/trades/trades.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ibcapital.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/private/SystemR/ibcapital.py">
+      <file leaf-file-name="prod6_go.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/private/SystemR/prod6_go.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KR3_carrydata.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/SystemR/data/KR3_carrydata.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14370">
-              <caret line="958" column="24" selection-start-line="958" selection-start-column="24" selection-end-line="958" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KR10_carrydata.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/private/SystemR/data/KR10_carrydata.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15225">
-              <caret line="1015" column="16" selection-start-line="1015" selection-start-column="16" selection-end-line="1015" selection-end-column="16" />
-              <folding />
+              <caret line="0" column="46" lean-forward="true" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+              <folding>
+                <element signature="e#47#101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -412,20 +119,46 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Caver</find>
-      <find>positions_file</find>
-      <find>time</find>
-      <find>nan</find>
+      <find>IB</find>
+      <find>(accon</find>
+      <find>to_csv</find>
+      <find>[:</find>
+      <find>index</find>
+      <find>NG</find>
+      <find>FuturesRawData</find>
+      <find>.pck</find>
+      <find>pck</find>
+      <find>check_roll</find>
+      <find>np</find>
+      <find>join</find>
+      <find>prod1_net_capital</find>
+      <find>sqlalchemy</find>
+      <find>_my_accounts</find>
+      <find>if x</find>
+      <find>today</find>
+      <find>ib_download</find>
+      <find>mkt_ser</find>
+      <find>today_as</find>
+      <find>ib_d</find>
+      <find>ib_dow</find>
+      <find>ib_down</find>
+      <find>] =</find>
+      <find>Tokyo</find>
+      <find>Asia</find>
+      <find>int</find>
+      <find>kr3</find>
+      <find>==</find>
+      <find>logger</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
-      <dir>$PROJECT_DIR$/private/SystemR</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -434,49 +167,52 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/systems/basesystem.py" />
-        <option value="$PROJECT_DIR$/examples/dockertest/dockertestresults.py" />
-        <option value="$PROJECT_DIR$/examples/dockertest/dockertest.py" />
-        <option value="$PROJECT_DIR$/examples/dockertest/Dockerfile" />
-        <option value="$PROJECT_DIR$/examples/dockertest/dockerscript" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/marketdata_real.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/docker_prod6.py" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/directories.csv" />
+        <option value="$PROJECT_DIR$/private/SystemR/legacycsv/test_data_sql_objects.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/data/EDOLLAR_carrydata.csv" />
+        <option value="$PROJECT_DIR$/private/SystemR/prod2_dl.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/admin/reports/20170810_monthly.csv" />
+        <option value="$PROJECT_DIR$/private/SystemR/admin/trades/trades.csv" />
+        <option value="$PROJECT_DIR$/test_downloads.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/use_pickle.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/un_pickle_system.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/admin/test/capital/capital.csv" />
+        <option value="$PROJECT_DIR$/private/SystemR/mysqldata.py" />
+        <option value="$PROJECT_DIR$/test_file.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/test_prod.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/test_downloads.yaml" />
+        <option value="$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv" />
+        <option value="$PROJECT_DIR$/private/SystemR/test_data_objects.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/wrapper_v2.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/testinit.py" />
+        <option value="$PROJECT_DIR$/old_prod6.py" />
         <option value="$PROJECT_DIR$/private/SystemR/wrapper_v5.py" />
         <option value="$PROJECT_DIR$/private/SystemR/ibcapital.py" />
-        <option value="$PROJECT_DIR$/private/SystemR/data/GAS_US_carrydata.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/trades/history/20170329trades.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/positions/system.csv" />
+        <option value="$PROJECT_DIR$/prod1_net_capital.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/test_data_sql_objects.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/prod1_net_capital.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/dbutils/ibwrapper.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/prod_capital_native.py" />
+        <option value="$PROJECT_DIR$/capital_test.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/test_test.py" />
+        <option value="$PROJECT_DIR$/reporting_on_pickle.ipynb" />
+        <option value="$PROJECT_DIR$/private/SystemR/dbutils/capital.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/test_unpick.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/get_accounting_data.py" />
+        <option value="$PROJECT_DIR$/get_market_data.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/get_market_data.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/get_market_prices.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/dbutils/panama.py" />
+        <option value="$PROJECT_DIR$/private/SystemR/testupdate.py" />
         <option value="$PROJECT_DIR$/private/SystemR/prod8_re.py" />
         <option value="$PROJECT_DIR$/private/SystemR/prod6_go.py" />
-        <option value="$PROJECT_DIR$/private/SystemR/prod2_dl.py" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/marketdata.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/data/VIX_carrydata.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201709.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR3/201709.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/data/KR3_price.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/data/KR10_price.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/trades/trades.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/data/KR3_carrydata.csv" />
-        <option value="$PROJECT_DIR$/private/SystemR/data/KR10_carrydata.csv" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="123" />
-    <option name="width" value="1024" />
-    <option name="height" value="645" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="x" value="912" />
+    <option name="y" value="144" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -493,39 +229,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 3.4.3 virtualenv at ~/Envs/prod &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -535,11 +269,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -553,38 +287,45 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prod1" />
+              <option name="myItemId" value="pysystemtrade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
+              <option name="myItemId" value="private" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SystemR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbutils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Python Packages/sysIB/private/data/downloads/ib/US5/201703.csv" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/private/SystemR/admin" />
       <recent name="$PROJECT_DIR$/private/SystemR" />
-      <recent name="$PROJECT_DIR$/private" />
+      <recent name="$PROJECT_DIR$/private/SystemR/admin/test/positions" />
+      <recent name="$PROJECT_DIR$/private/SystemR/admin/test/capital" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/private/SystemR" />
     </key>
   </component>
   <component name="RunManager" selected="Python.prod8_re">
-    <configuration default="false" name="prod4_up" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="testupdate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -596,7 +337,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pysystemtrade" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/SystemR/prod4_up.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/SystemR/testupdate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -635,38 +376,42 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="ibcapital" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Doctests in panama" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/SystemR" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/SystemR/dbutils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pysystemtrade" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/SystemR/ibcapital.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/SystemR/dbutils/panama.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="prod2_dl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Doctests in panama (1)" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/SystemR" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/private/SystemR/dbutils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pysystemtrade" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/SystemR/prod2_dl.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/private/SystemR/dbutils/panama.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -804,27 +549,24 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.prod4_up" />
+      <item index="0" class="java.lang.String" itemvalue="Python.testupdate" />
       <item index="1" class="java.lang.String" itemvalue="Python.prod6_go" />
       <item index="2" class="java.lang.String" itemvalue="Python.prod8_re" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ibcapital" />
-      <item index="4" class="java.lang.String" itemvalue="Python.prod2_dl" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in panama" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in panama (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.prod8_re" />
         <item index="1" class="java.lang.String" itemvalue="Python.prod6_go" />
-        <item index="2" class="java.lang.String" itemvalue="Python.prod4_up" />
-        <item index="3" class="java.lang.String" itemvalue="Python.prod2_dl" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ibcapital" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testupdate" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Doctests in panama (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Doctests in panama" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -836,394 +578,542 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Doctests_in_panama - 2017.09.14 at 07h 23m 57s.xml">
+      <configuration name="Doctests in panama" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_panama_(1) - 2017.09.20 at 00h 07m 19s.xml">
+      <configuration name="Doctests in panama (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_get_market_data - 2017.09.08 at 14h 45m 09s.xml">
+      <configuration name="Unittests in get_market_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_get_market_data - 2017.09.08 at 14h 46m 47s.xml">
+      <configuration name="Unittests in get_market_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_get_market_data - 2017.09.08 at 21h 26m 11s.xml">
+      <configuration name="Unittests in get_market_data" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ibwrapper - 2017.09.02 at 02h 39m 50s.xml">
+      <configuration name="Unittests in ibwrapper" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ibwrapper_(1) - 2017.09.02 at 02h 45m 32s.xml">
+      <configuration name="Unittests in ibwrapper (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_prod_capital_native - 2017.09.04 at 01h 45m 03s.xml">
+      <configuration name="Unittests in prod_capital_native" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_prod_capital_native - 2017.09.04 at 01h 45m 43s.xml">
+      <configuration name="Unittests in prod_capital_native" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_prod_capital_native - 2017.09.04 at 01h 46m 16s.xml">
+      <configuration name="Unittests in prod_capital_native" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="123" width="1024" height="645" extended-state="1" />
+    <frame x="912" y="144" width="1440" height="873" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19363958" sideWeight="0.5317164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5035035" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40689656" sideWeight="0.4501767" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.4964965" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54" sideWeight="0.7757758" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49308756" sideWeight="0.49295774" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7737931" sideWeight="0.55618376" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24935512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.4964965" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3051643" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.4941825" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17942438" sideWeight="0.4682836" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40689656" sideWeight="0.54982334" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7344" sideWeight="0.4964965" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5606596" sideWeight="0.49383563" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5374841" sideWeight="0.4669749" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.4964965" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49308756" sideWeight="0.49295774" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30068967" sideWeight="0.5330251" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328341" sideWeight="0.4941825" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17809187" sideWeight="0.5317164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5606596" sideWeight="0.49383563" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24935512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17942438" sideWeight="0.4682836" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35689047" sideWeight="0.48995462" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/sysdata/csvdata.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/un_pickle_system.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/test_unpick.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/test_unpick.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/test_unpick.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/test_unpick.py</url>
+          <line>123</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/prod6_go.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/get_market_data.py</url>
+          <line>431</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/get_market_prices.py</url>
+          <line>408</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py</url>
+          <line>1206</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py</url>
+          <line>1180</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py</url>
+          <line>1111</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="110" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod6_go.py">
+    <entry file="file://$PROJECT_DIR$/systems/account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+        <state relative-caret-position="26715">
+          <caret line="1794" column="0" lean-forward="false" selection-start-line="1794" selection-start-column="0" selection-end-line="1794" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv">
+    <entry file="file://$PROJECT_DIR$/systems/basesystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="3945">
+          <caret line="266" column="17" lean-forward="false" selection-start-line="266" selection-start-column="17" selection-end-line="266" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/positions/system.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/mysqldata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/private/SystemR/prod2_dl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="2745">
+          <caret line="190" column="55" lean-forward="false" selection-start-line="190" selection-start-column="53" selection-end-line="190" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod8_re.py">
+    <entry file="file://$PROJECT_DIR$/examples/smallaccountsize/instrument_list/instrument_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/trades/trades.csv">
+    <entry file="file://$PROJECT_DIR$/build/lib/examples/smallaccountsize/roundingeffects.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="2295">
+          <caret line="156" column="74" lean-forward="false" selection-start-line="156" selection-start-column="74" selection-end-line="156" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod4_up.py">
+    <entry file="file://$PROJECT_DIR$/build/lib/examples/smallaccountsize/generatesystems.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod6_go.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="480">
+          <caret line="37" column="73" lean-forward="false" selection-start-line="37" selection-start-column="73" selection-end-line="37" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/private/SystemR/IButils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/MXP/201706.csv">
+    <entry file="file://$PROJECT_DIR$/private/SystemR/docker_prod6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1009">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test_downloads.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="132" column="1" lean-forward="false" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/wrapper_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/positions/current.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/wrapper_v2.py">
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/frame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+        <state relative-caret-position="29670">
+          <caret line="2065" column="0" lean-forward="false" selection-start-line="2065" selection-start-column="0" selection-end-line="2065" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod6_go.py">
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test_prod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod10_st.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3615">
-          <caret line="245" column="21" selection-start-line="245" selection-start-column="21" selection-end-line="245" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/AEX_carrydata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod8_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod4_up.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/VIX_price.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/VIX/201708.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1836">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201705.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2254">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201707.csv" />
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201710.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201708.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/GOLD/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201708.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5659">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/GOLD/201710.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5029">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201707.csv" />
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/VIX/201708.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1294">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/WHEAT/201812.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2674">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/WHEAT/201712.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-619">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/V2X/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/VIX_carrydata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2342" column="0" selection-start-line="2342" selection-start-column="0" selection-end-line="2342" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/prod2_dl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="168" column="11" selection-start-line="168" selection-start-column="10" selection-end-line="168" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/marketdata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR3/201709.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR3/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-973">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/KR10_price.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="1007" column="17" selection-start-line="1007" selection-start-column="17" selection-end-line="1007" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/KOSPI_price.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16555">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/KOSPI_carrydata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="1133" column="1" selection-start-line="1133" selection-start-column="1" selection-end-line="1133" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/KR3_price.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="950" column="17" selection-start-line="950" selection-start-column="17" selection-end-line="950" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR3/201709.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/quandl/KR10/201709.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/downloads/ib/KR10/201706.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-118">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/production01.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/trades/trades.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="2925">
+          <caret line="209" column="22" lean-forward="false" selection-start-line="209" selection-start-column="18" selection-end-line="209" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old_prod6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="1872" column="0" lean-forward="false" selection-start-line="1872" selection-start-column="0" selection-end-line="1872" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/private/SystemR/admin/capital/capital.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="15" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/KR3_carrydata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14370">
-          <caret line="958" column="24" selection-start-line="958" selection-start-column="24" selection-end-line="958" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/private/SystemR/data/KR10_carrydata.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15225">
-          <caret line="1015" column="16" selection-start-line="1015" selection-start-column="16" selection-end-line="1015" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="1140">
+          <caret line="76" column="22" lean-forward="false" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/private/SystemR/ibcapital.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/envs/notebook/lib/python3.5/site-packages/sqlalchemy/engine/strategies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/wrapper_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2205">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/marketdata.csv">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/capital_test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reporting_on_pickle.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/dbutils/capital.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2235">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/get_accounting_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="469" column="0" lean-forward="true" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/get_market_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6000">
+          <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
+          <folding>
+            <element signature="e#645#679#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/prod1_net_capital.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="35" lean-forward="false" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/prod_capital_native.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="500" column="7" lean-forward="false" selection-start-line="500" selection-start-column="7" selection-end-line="500" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/testinit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/get_market_prices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="403" column="18" lean-forward="false" selection-start-line="403" selection-start-column="18" selection-end-line="403" selection-end-column="113" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test_unpick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+          <folding>
+            <marker date="1504825011589" expanded="false" signature="6680:6915" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/dbutils/ibwrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4965">
+          <caret line="336" column="1" lean-forward="false" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
+          <folding>
+            <element signature="e#645#679#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62370">
+          <caret line="4211" column="0" lean-forward="false" selection-start-line="4211" selection-start-column="0" selection-end-line="4211" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1595" column="0" lean-forward="false" selection-start-line="1595" selection-start-column="0" selection-end-line="1595" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/core/internals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41055">
+          <caret line="2801" column="0" lean-forward="false" selection-start-line="2801" selection-start-column="0" selection-end-line="2801" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test_data_objects.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/production01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="77" column="48" lean-forward="false" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/test_data_sql_objects.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/pandas/types/missing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/admin/logs/reconciler.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122520">
+          <caret line="8168" column="14" lean-forward="false" selection-start-line="8168" selection-start-column="14" selection-end-line="8168" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/dbutils/panama.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5610">
+          <caret line="376" column="42" lean-forward="false" selection-start-line="376" selection-start-column="41" selection-end-line="376" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/testupdate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/prod6_go.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="true" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding>
+            <element signature="e#47#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/private/SystemR/prod8_re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

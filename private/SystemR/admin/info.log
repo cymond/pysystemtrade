@@ -1180,3 +1180,453 @@ Traceback (most recent call last):
   File "/home/pete/Envs/prod/lib/python3.4/site-packages/pandas/core/indexing.py", line 1406, in error
     (key, self.obj._get_axis_name(axis)))
 KeyError: 'the label [NetLiquidation] is not in the [index]'
+20170524 01:54:24AM,Downloads,ERROR   ,Table aex_price not found
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 257, in read_sql_table
+    meta.reflect(only=[table_name], views=True)
+  File "/home/lope/envs/notebook/lib/python3.5/site-packages/sqlalchemy/sql/schema.py", line 3840, in reflect
+    (bind.engine, s, ', '.join(missing)))
+sqlalchemy.exc.InvalidRequestError: Could not reflect: requested table(s) not available in Engine(mysql+pymysql://root:***@0.0.0.0/pkdemo): (aex_price)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 205, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 154, in main
+    dfBufferedPositions = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 983, in get_buffered_position
+    flags="roundpositions%s" % TorF(roundpositions))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 969, in _get_buffered_position
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 359, in get_notional_position
+    return self.parent.portfolio.get_notional_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 348, in get_notional_position
+    "get_notional_position", instrument_code, _get_notional_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 331, in _get_notional_position
+    idm = this_stage.get_instrument_diversification_multiplier()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 733, in get_instrument_diversification_multiplier
+    self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 721, in _get_instrument_div_multiplier
+    correlation_list_object = this_stage.get_instrument_correlation_matrix()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 685, in get_instrument_correlation_matrix
+    self, corr_func, **corr_params)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 657, in _get_instrument_correlation_matrix
+    pandl = this_stage.pandl_across_subsystems().to_frame()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 786, in pandl_across_subsystems
+    return self.parent.accounts.pandl_across_subsystems()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 937, in pandl_across_subsystems
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in _pandl_across_subsystems
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in <listcomp>
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 884, in pandl_for_subsystem
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 855, in _pandl_for_subsystem
+    price = this_stage.get_daily_price(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 406, in get_daily_price
+    'get_daily_price', instrument_code, _get_daily_price, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 403, in _get_daily_price
+    return system.data.daily_prices(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/sysdata/data.py", line 57, in daily_prices
+    instrprice = self.get_raw_price(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/mysqldata.py", line 154, in get_raw_price
+    index_col=['DATETIME'])
+  File "/usr/local/lib/python3.5/dist-packages/pandas/io/sql.py", line 259, in read_sql_table
+    raise ValueError("Table %s not found" % table_name)
+ValueError: Table aex_price not found
+20170524 05:55:23PM,Downloads,ERROR   ,Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Index'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 205, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 154, in main
+    dfBufferedPositions = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 983, in get_buffered_position
+    flags="roundpositions%s" % TorF(roundpositions))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 969, in _get_buffered_position
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 359, in get_notional_position
+    return self.parent.portfolio.get_notional_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 348, in get_notional_position
+    "get_notional_position", instrument_code, _get_notional_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 331, in _get_notional_position
+    idm = this_stage.get_instrument_diversification_multiplier()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 733, in get_instrument_diversification_multiplier
+    self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 721, in _get_instrument_div_multiplier
+    correlation_list_object = this_stage.get_instrument_correlation_matrix()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 685, in get_instrument_correlation_matrix
+    self, corr_func, **corr_params)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 657, in _get_instrument_correlation_matrix
+    pandl = this_stage.pandl_across_subsystems().to_frame()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 786, in pandl_across_subsystems
+    return self.parent.accounts.pandl_across_subsystems()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 937, in pandl_across_subsystems
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in _pandl_across_subsystems
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in <listcomp>
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 884, in pandl_for_subsystem
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 855, in _pandl_for_subsystem
+    price = this_stage.get_daily_price(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 406, in get_daily_price
+    'get_daily_price', instrument_code, _get_daily_price, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 403, in _get_daily_price
+    return system.data.daily_prices(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/sysdata/data.py", line 58, in daily_prices
+    dailyprice = instrprice.resample("1B").last()
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 4212, in resample
+    base=base, key=on, level=level)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/tseries/resample.py", line 944, in resample
+    return tg._get_resampler(obj, kind=kind)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/tseries/resample.py", line 1057, in _get_resampler
+    "but got an instance of %r" % type(ax).__name__)
+TypeError: Only valid with DatetimeIndex, TimedeltaIndex or PeriodIndex, but got an instance of 'Index'
+20170524 06:20:43PM,Downloads,ERROR   ,Cannot compare type 'Timestamp' with type 'int'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 205, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 154, in main
+    dfBufferedPositions = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 983, in get_buffered_position
+    flags="roundpositions%s" % TorF(roundpositions))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 969, in _get_buffered_position
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 359, in get_notional_position
+    return self.parent.portfolio.get_notional_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 348, in get_notional_position
+    "get_notional_position", instrument_code, _get_notional_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 331, in _get_notional_position
+    idm = this_stage.get_instrument_diversification_multiplier()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 733, in get_instrument_diversification_multiplier
+    self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 721, in _get_instrument_div_multiplier
+    correlation_list_object = this_stage.get_instrument_correlation_matrix()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 685, in get_instrument_correlation_matrix
+    self, corr_func, **corr_params)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 657, in _get_instrument_correlation_matrix
+    pandl = this_stage.pandl_across_subsystems().to_frame()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 786, in pandl_across_subsystems
+    return self.parent.accounts.pandl_across_subsystems()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 937, in pandl_across_subsystems
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in _pandl_across_subsystems
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in <listcomp>
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 884, in pandl_for_subsystem
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 876, in _pandl_for_subsystem
+    ann_risk_target=ann_risk_target)
+  File "/home/lope/PycharmProjects/pysystemtrade/syscore/accounting.py", line 735, in __init__
+    price, daily_risk_capital=daily_risk_capital, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/syscore/accounting.py", line 141, in pandl_with_data
+    use_fx = fx.reindex(price.index, method="ffill")
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 2362, in reindex
+    return super(Series, self).reindex(index=index, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2259, in reindex
+    fill_value, copy).__finalize__(self)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2272, in _reindex_axes
+    tolerance=tolerance, method=method)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2540, in reindex
+    tolerance=tolerance)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2268, in get_indexer
+    tolerance=tolerance)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2275, in get_indexer
+    indexer = self._get_fill_indexer(target, method, limit, tolerance)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2298, in _get_fill_indexer
+    indexer = method(target._values, limit)
+  File "pandas/index.pyx", line 522, in pandas.index.ObjectEngine.get_pad_indexer (pandas/index.c:10369)
+  File "pandas/src/algos_common_helper.pxi", line 839, in pandas.algos.pad_object (pandas/algos.c:42521)
+  File "pandas/tslib.pyx", line 1103, in pandas.tslib._Timestamp.__richcmp__ (pandas/tslib.c:20491)
+TypeError: Cannot compare type 'Timestamp' with type 'int'
+20170524 07:37:18PM,Downloads,ERROR   ,Cannot compare type 'Timestamp' with type 'int'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 205, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 154, in main
+    dfBufferedPositions = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 983, in get_buffered_position
+    flags="roundpositions%s" % TorF(roundpositions))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 969, in _get_buffered_position
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 359, in get_notional_position
+    return self.parent.portfolio.get_notional_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 348, in get_notional_position
+    "get_notional_position", instrument_code, _get_notional_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 331, in _get_notional_position
+    idm = this_stage.get_instrument_diversification_multiplier()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 733, in get_instrument_diversification_multiplier
+    self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 721, in _get_instrument_div_multiplier
+    correlation_list_object = this_stage.get_instrument_correlation_matrix()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 685, in get_instrument_correlation_matrix
+    self, corr_func, **corr_params)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 657, in _get_instrument_correlation_matrix
+    pandl = this_stage.pandl_across_subsystems().to_frame()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 786, in pandl_across_subsystems
+    return self.parent.accounts.pandl_across_subsystems()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 937, in pandl_across_subsystems
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in _pandl_across_subsystems
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in <listcomp>
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 884, in pandl_for_subsystem
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 876, in _pandl_for_subsystem
+    ann_risk_target=ann_risk_target)
+  File "/home/lope/PycharmProjects/pysystemtrade/syscore/accounting.py", line 735, in __init__
+    price, daily_risk_capital=daily_risk_capital, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/syscore/accounting.py", line 141, in pandl_with_data
+    use_fx = fx.reindex(price.index, method="ffill")
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/series.py", line 2362, in reindex
+    return super(Series, self).reindex(index=index, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2259, in reindex
+    fill_value, copy).__finalize__(self)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2272, in _reindex_axes
+    tolerance=tolerance, method=method)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2540, in reindex
+    tolerance=tolerance)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2268, in get_indexer
+    tolerance=tolerance)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2275, in get_indexer
+    indexer = self._get_fill_indexer(target, method, limit, tolerance)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/indexes/base.py", line 2298, in _get_fill_indexer
+    indexer = method(target._values, limit)
+  File "pandas/index.pyx", line 522, in pandas.index.ObjectEngine.get_pad_indexer (pandas/index.c:10369)
+  File "pandas/src/algos_common_helper.pxi", line 839, in pandas.algos.pad_object (pandas/algos.c:42521)
+  File "pandas/tslib.pyx", line 1103, in pandas.tslib._Timestamp.__richcmp__ (pandas/tslib.c:20491)
+TypeError: Cannot compare type 'Timestamp' with type 'int'
+20170524 07:39:19PM,Downloads,ERROR   ,ufunc multiply cannot use operands with types dtype('float64') and dtype('<M8[ns]')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 652, in na_op
+    raise_on_error=True, **eval_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/computation/expressions.py", line 210, in evaluate
+    **eval_kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/computation/expressions.py", line 63, in _evaluate_standard
+    return op(a, b)
+TypeError: ufunc multiply cannot use operands with types dtype('float64') and dtype('<M8[ns]')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 205, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 154, in main
+    dfBufferedPositions = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 983, in get_buffered_position
+    flags="roundpositions%s" % TorF(roundpositions))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 969, in _get_buffered_position
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 359, in get_notional_position
+    return self.parent.portfolio.get_notional_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 348, in get_notional_position
+    "get_notional_position", instrument_code, _get_notional_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 331, in _get_notional_position
+    idm = this_stage.get_instrument_diversification_multiplier()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 733, in get_instrument_diversification_multiplier
+    self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 721, in _get_instrument_div_multiplier
+    correlation_list_object = this_stage.get_instrument_correlation_matrix()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 685, in get_instrument_correlation_matrix
+    self, corr_func, **corr_params)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 657, in _get_instrument_correlation_matrix
+    pandl = this_stage.pandl_across_subsystems().to_frame()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 786, in pandl_across_subsystems
+    return self.parent.accounts.pandl_across_subsystems()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 937, in pandl_across_subsystems
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in _pandl_across_subsystems
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in <listcomp>
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 884, in pandl_for_subsystem
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 857, in _pandl_for_subsystem
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 254, in get_aligned_subsystem_position
+    _get_aligned_subsystem_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 246, in _get_aligned_subsystem_position
+    sspos = this_stage.get_subsystem_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 230, in get_subsystem_position
+    return self.parent.positionSize.get_subsystem_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 492, in get_subsystem_position
+    'get_subsystem_position', instrument_code, _get_subsystem_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 482, in _get_subsystem_position
+    vol_scalar = this_stage.get_volatility_scalar(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 441, in get_volatility_scalar
+    'get_volatility_scalar', instrument_code, _get_volatility_scalar, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 432, in _get_volatility_scalar
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 397, in get_instrument_value_vol
+    'get_instrument_value_vol', instrument_code, _get_instrument_value_vol, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 392, in _get_instrument_value_vol
+    instr_value_vol = instr_ccy_vol * fx_rate
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 715, in wrapper
+    result = wrap_results(safe_na_op(lvalues, rvalues))
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 676, in safe_na_op
+    return na_op(lvalues, rvalues)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 658, in na_op
+    result[mask] = op(x[mask], _values_from_object(y[mask]))
+TypeError: ufunc multiply cannot use operands with types dtype('float64') and dtype('<M8[ns]')
+20170524 08:49:35PM,Downloads,ERROR   ,'NoneType' object has no attribute 'align'
+Traceback (most recent call last):
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 205, in <module>
+    main()
+  File "/home/lope/PycharmProjects/pysystemtrade/private/SystemR/prod6_go.py", line 154, in main
+    dfBufferedPositions = pd.DataFrame(system.accounts.get_buffered_position(i[1], roundpositions=True))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 983, in get_buffered_position
+    flags="roundpositions%s" % TorF(roundpositions))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 969, in _get_buffered_position
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 359, in get_notional_position
+    return self.parent.portfolio.get_notional_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 348, in get_notional_position
+    "get_notional_position", instrument_code, _get_notional_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 331, in _get_notional_position
+    idm = this_stage.get_instrument_diversification_multiplier()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 733, in get_instrument_diversification_multiplier
+    self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 721, in _get_instrument_div_multiplier
+    correlation_list_object = this_stage.get_instrument_correlation_matrix()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 685, in get_instrument_correlation_matrix
+    self, corr_func, **corr_params)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 657, in _get_instrument_correlation_matrix
+    pandl = this_stage.pandl_across_subsystems().to_frame()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/portfolio.py", line 786, in pandl_across_subsystems
+    return self.parent.accounts.pandl_across_subsystems()
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 937, in pandl_across_subsystems
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in _pandl_across_subsystems
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 925, in <listcomp>
+    roundpositions=roundpositions) for instrument_code in instruments]
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 884, in pandl_for_subsystem
+    TorF(delayfill), TorF(roundpositions)))
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 857, in _pandl_for_subsystem
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 254, in get_aligned_subsystem_position
+    _get_aligned_subsystem_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 246, in _get_aligned_subsystem_position
+    sspos = this_stage.get_subsystem_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/account.py", line 230, in get_subsystem_position
+    return self.parent.positionSize.get_subsystem_position(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 492, in get_subsystem_position
+    'get_subsystem_position', instrument_code, _get_subsystem_position, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 482, in _get_subsystem_position
+    vol_scalar = this_stage.get_volatility_scalar(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 441, in get_volatility_scalar
+    'get_volatility_scalar', instrument_code, _get_volatility_scalar, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 432, in _get_volatility_scalar
+    instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 397, in get_instrument_value_vol
+    'get_instrument_value_vol', instrument_code, _get_instrument_value_vol, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 388, in _get_instrument_value_vol
+    fx_rate = this_stage.get_fx_rate(instrument_code)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 265, in get_fx_rate
+    'get_fx_rate', instrument_code, _get_fx_rate, self)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/basesystem.py", line 649, in calc_or_cache
+    value = func(self, instrument_code, this_stage, *args, **kwargs)
+  File "/home/lope/PycharmProjects/pysystemtrade/systems/positionsizing.py", line 260, in _get_fx_rate
+    instrument_code, base_currency)
+  File "/home/lope/PycharmProjects/pysystemtrade/sysdata/data.py", line 275, in get_fx_for_instrument
+    fx_rate_series = self._get_fx_cross(instrument_currency, base_currency)
+  File "/home/lope/PycharmProjects/pysystemtrade/sysdata/data.py", line 245, in _get_fx_cross
+    (aligned_c1, aligned_c2) = currency1_vs_default.align(
+AttributeError: 'NoneType' object has no attribute 'align'

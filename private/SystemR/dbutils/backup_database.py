@@ -14,16 +14,43 @@ for table in control_tables:
     var_df.to_csv(filename, index=False)
 for row in dict["marketdata"].itertuples():
     print("===============================================")
+
+    symbol = row.CARVER.lower()
+    print("Backing up files for symbol: ", symbol)
     files = []
-    for line in (dict["roll_schedule"][(dict["roll_schedule"]['CARVER'] == row.CARVER)]).itertuples():
-        files.append(line.CARVER.lower() + line.CARRY_CONTRACT)
-        files.append(line.CARVER.lower() + line.PRICE_CONTRACT)
-    for x in (list(set(files))):
-        print(x)
-        var_df = pd.read_sql_table(table_name=x, con=engine)
-        filename = backup_dir + x + ".csv"
-        print("...writing file: ", filename)
-        var_df.to_csv(filename, index=False)
+    if row.SECTYPE == 'FUT':
+        # backup PRICE and CARRY streams
+        price_tab = symbol + "_price"
+        carry_tab = symbol + "_carrydata"
+        for table in [price_tab, carry_tab]:
+            filename = table + ".csv"
+            try:
+                df = pd.read_sql_table(table_name=table, con=engine)
+                df.to_csv(filename, index=False)
+            except Exception as e:
+                print(e, " Can't access table: ", table)
+        # backup raw data
+        for line in (dict["roll_schedule"][(dict["roll_schedule"]['CARVER'] == row.CARVER)]).itertuples():
+            # collect PRICE and CARRY maturities
+            files.append(symbol + line.CARRY_CONTRACT)
+            files.append(symbol + line.PRICE_CONTRACT)
+        for x in (list(set(files))): # remove duplicates
+            try:
+                var_df = pd.read_sql_table(table_name=x, con=engine)
+                filename = backup_dir + x + ".csv"
+                var_df.to_csv(filename, index=False)
+            except Exception as e:
+                print(e, " Can't access table: ", x)
+    elif row.SECTYPE == 'CASH':
+        table = row.CARVER + "fx"
+        try:
+            df = pd.read_sql_table(table_name=table, con=engine)
+            filename = table + ".csv"
+            df.to_csv(filename, index=False)
+        except Exception as e:
+            print(e, " Can't access table: ", table)
+
+
 
 
 

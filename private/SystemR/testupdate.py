@@ -16,7 +16,7 @@ print("processing updates...")
 for row in marketdata_df.itertuples():
     market = row.CARVER
     if row.SECTYPE == 'FUT':
-    #if market in ['KR3']:
+    #if market in ['SP500']:
         market_series = row
         roll_df = roll_schedule_df[roll_schedule_df['CARVER'] == row.CARVER]
         print("========================", row.CARVER, "==========================================================")
